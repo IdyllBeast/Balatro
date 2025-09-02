@@ -1,0 +1,24 @@
+[manifest]
+version = "1.0.0"
+dump_lua = true
+priority = 1
+
+# i literally hate my life so much kill me oh my fucking god
+[[patches]]
+[patches.pattern]
+target = '=[SMODS _ "src/utils.lua"]'
+match_indent = true
+position = 'before'
+pattern = '-- TARGET: add your own CardAreas for joker evaluation'
+payload = '''
+    local ygg_joker_idx = 0
+    for k, v in ipairs(t) do
+        ygg_joker_idx = ygg_joker_idx + 1
+        if v == G.jokers then
+            break
+        end
+    end
+    table.insert(t, ygg_joker_idx, G.ygg_sp_area)
+    t[#t+1] = G.ygg_relic_area
+    t[#t+1] = G.ygg_uneq_relic_area
+'''

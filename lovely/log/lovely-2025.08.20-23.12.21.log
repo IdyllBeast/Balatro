@@ -1,0 +1,756 @@
+INFO - [♥] Lovely 0.8.0
+INFO - [♥] Game directory is at "C:\\games\\Balatro.v1.0.1o\\Balatro.v1.0.1o\\game"
+INFO - [♥] Writing logs to "C:\\Users\\easto\\AppData\\Roaming\\Balatro\\Mods\\lovely\\log"
+INFO - [♥] Using mod directory at "C:\\Users\\easto\\AppData\\Roaming\\Balatro\\Mods"
+INFO - [♥] Found .lovelyignore in 'Aikoyori'sShenanigans', skipping it.
+INFO - [♥] Found .lovelyignore in 'Cryptid-MoreMarioJokers', skipping it.
+INFO - [♥] Found .lovelyignore in 'Cryptposting', skipping it.
+INFO - [♥] Found .lovelyignore in 'CustomSuitOrder', skipping it.
+INFO - [♥] Found .lovelyignore in 'ExtraCredit', skipping it.
+INFO - [♥] Found .lovelyignore in 'Jen', skipping it.
+INFO - [♥] Found .lovelyignore in 'Kino', skipping it.
+INFO - [♥] Found .lovelyignore in 'Malverk', skipping it.
+INFO - [♥] Found .lovelyignore in 'MoreFluff', skipping it.
+INFO - [♥] Found .lovelyignore in 'SDM_0'sStuff', skipping it.
+INFO - [♥] Found .lovelyignore in 'StickyFingers', skipping it.
+INFO - [♥] Found .lovelyignore in 'Trance', skipping it.
+INFO - [♥] Found .lovelyignore in 'Yggdrasil', skipping it.
+WARN - [♥] Unknown key `patches.1.?.match_indent` found in patch file at "C:\\Users\\easto\\AppData\\Roaming\\Balatro\\Mods\\Cartomancer\\lovely\\blinds-info.toml", ignoring it
+WARN - [♥] Unknown key `patches.2.?.match_indent` found in patch file at "C:\\Users\\easto\\AppData\\Roaming\\Balatro\\Mods\\Cartomancer\\lovely\\stackable-deck-steamodded.toml", ignoring it
+WARN - [♥] Unknown key `patches.4.?.match_indent` found in patch file at "C:\\Users\\easto\\AppData\\Roaming\\Balatro\\Mods\\Cartomancer\\lovely\\stackable-deck-steamodded.toml", ignoring it
+WARN - [♥] Unknown key `patches.6.?.match_indent` found in patch file at "C:\\Users\\easto\\AppData\\Roaming\\Balatro\\Mods\\Cartomancer\\lovely\\stackable-deck-steamodded.toml", ignoring it
+WARN - [♥] Unknown key `patches.20.?.match_indent` found in patch file at "C:\\Users\\easto\\AppData\\Roaming\\Balatro\\Mods\\Cryptid\\lovely\\code.toml", ignoring it
+WARN - [♥] Unknown key `patches.1.?.match_indent` found in patch file at "C:\\Users\\easto\\AppData\\Roaming\\Balatro\\Mods\\HandyBalatro\\lovely\\controls_misc.toml", ignoring it
+WARN - [♥] Unknown key `patches.1.?.overwrite` found in patch file at "C:\\Users\\easto\\AppData\\Roaming\\Balatro\\Mods\\HandyBalatro\\lovely\\controls_misc.toml", ignoring it
+WARN - [♥] Unknown key `patches.0.?.overwrite` found in patch file at "C:\\Users\\easto\\AppData\\Roaming\\Balatro\\Mods\\HandyBalatro\\lovely\\controls_show_deck_preview.toml", ignoring it
+WARN - [♥] Unknown key `patches.35.?.match_indent` found in patch file at "C:\\Users\\easto\\AppData\\Roaming\\Balatro\\Mods\\Talisman\\lovely.toml", ignoring it
+WARN - [♥] Unknown key `patches.35.?.overwrite` found in patch file at "C:\\Users\\easto\\AppData\\Roaming\\Balatro\\Mods\\Talisman\\lovely.toml", ignoring it
+WARN - [♥] Unknown key `patches.52.?.match_indent` found in patch file at "C:\\Users\\easto\\AppData\\Roaming\\Balatro\\Mods\\Talisman\\lovely.toml", ignoring it
+WARN - [♥] Unknown key `patches.55.?.match_indent` found in patch file at "C:\\Users\\easto\\AppData\\Roaming\\Balatro\\Mods\\Talisman\\lovely.toml", ignoring it
+INFO - [♥] Cleaning up dumps directory at "C:\\Users\\easto\\AppData\\Roaming\\Balatro\\Mods\\lovely\\dump"
+INFO - [♥] Initialization complete in 480ms
+INFO - [♥] Applied 1 patch to 'conf.lua'
+WARN - [♥] Pattern 'G.ARGS.score_intensity.organ = G.video_organ or G.ARGS.score_intensity.required_score > 0 and math.max(math.min(0.4, 0.1*math.log(G.ARGS.score_intensity.earned_score/(G.ARGS.score_intensity.required_score+1), 5)),0.) or 0' on target 'main.lua' for pattern patch from Talisman\lovely.toml resulted in no matches
+WARN - [♥] Pattern 'if type(G.GAME.current_round.current_hand.chips) ~= \'number\' or type(G.GAME.current_round.current_hand.mult) ~= \'number\' then' on target 'main.lua' for pattern patch from Talisman\lovely.toml resulted in no matches
+WARN - [♥] Pattern 'assert(load(nfs.read(Saturn.PATH .. \"/core/logic/hide_played.lua\")))()' on target 'main.lua' for pattern patch from Cartomancer\lovely\saturn-compat.toml resulted in no matches
+WARN - [♥] Pattern 'modded and {' on target 'main.lua' for pattern patch from Cartomancer\lovely\stackable-deck-steamodded-0.9.8.toml resulted in no matches
+INFO - [♥] Applied 25 patches to 'main.lua'
+INFO - [♥] Applied 2 patches to 'engine/string_packer.lua'
+INFO - [♥] Applied 21 patches to 'engine/controller.lua'
+INFO - [♥] Applied 15 patches to 'back.lua'
+INFO - [♥] Applied 18 patches to 'tag.lua'
+INFO - [♥] Applied 1 patch to 'engine/event.lua'
+INFO - [♥] Applied 1 patch to 'engine/node.lua'
+INFO - [♥] Applied 3 patches to 'engine/moveable.lua'
+INFO - [♥] Applied 3 patches to 'engine/sprite.lua'
+INFO - [♥] Applied 2 patches to 'engine/animatedsprite.lua'
+WARN - [♥] Pattern 'assembled_string = assembled_string..(type(subpart) == \'string\' and subpart or args.vars[tonumber(subpart[1])] or \'ERROR\')' on target 'functions/misc_functions.lua' for pattern patch from Talisman\lovely.toml resulted in no matches
+INFO - [♥] Applied 86 patches to 'functions/misc_functions.lua'
+WARN - [♥] Pattern 'if Big:new(G.GAME.chips) >= Big:new(G.GAME.blind.chips) or G.GAME.current_round.hands_left < 1 then' on target 'game.lua' for pattern patch from NotJustYet\lovely.toml resulted in no matches
+WARN - [♥] Pattern 'if to_big(G.GAME.chips) >= to_big(G.GAME.blind.chips) or G.GAME.current_round.hands_left <= 0 then' on target 'game.lua' for pattern patch from NotJustYet\lovely.toml resulted in no matches
+WARN - [♥] Pattern 'if #G.hand.cards < 1 and #G.deck.cards < 1 and #G.play.cards < 1 then' on target 'game.lua' for pattern patch from NotJustYet\lovely.toml resulted in no matches
+WARN - [♥] Pattern 'if #G.hand.cards < 1 and #G.deck.cards < 1 then' on target 'game.lua' for pattern patch from NotJustYet\lovely.toml resulted in no matches
+WARN - [♥] Pattern 'if G.GAME.chips - G.GAME.blind.chips >= 0 or G.GAME.current_round.hands_left < 1 then' on target 'game.lua' for pattern patch from Talisman\lovely.toml resulted in no matches
+WARN - [♥] Regex 'card\\:start_materialize\\(\\)\\n\\s+G\\.shop_vouchers\\:emplace\\(card\\)\\n\\s+end' on target 'game.lua' for regex patch from Cryptid\lovely\Voucher.toml resulted in no matches
+INFO - [♥] Applied 113 patches to 'game.lua'
+INFO - [♥] Applied 3 patches to 'globals.lua'
+WARN - [♥] Pattern 'self.config.chosen = true' on target 'engine/ui.lua' for pattern patch from Cartomancer\lovely\vanilla-ui.toml resulted in no matches
+INFO - [♥] Applied 9 patches to 'engine/ui.lua'
+WARN - [♥] Pattern '{n=G.UIT.T, config={text = G.GAME.hands[handname].chips, scale = 0.45, colour = G.C.UI.TEXT_LIGHT}},' on target 'functions/UI_definitions.lua' for pattern patch from Talisman\lovely.toml resulted in no matches
+WARN - [♥] Pattern '{n=G.UIT.T, config={text = G.GAME.hands[handname].mult, scale = 0.45, colour = G.C.UI.TEXT_LIGHT}}' on target 'functions/UI_definitions.lua' for pattern patch from Talisman\lovely.toml resulted in no matches
+INFO - [♥] Applied 159 patches to 'functions/UI_definitions.lua'
+WARN - [♥] Pattern 'ease_to = G.GAME.chips + math.floor(hand_chips * mult) * (e and e.antiscore and -1 or 1),' on target 'functions/state_events.lua' for pattern patch from Cryptid\lovely\blind.toml resulted in no matches
+WARN - [♥] Pattern 'if reps[j] ~= 1 then' on target 'functions/state_events.lua' for pattern patch from Cryptid\lovely\misc.toml resulted in no matches
+WARN - [♥] Pattern 'if effects[ii].card then' on target 'functions/state_events.lua' for pattern patch from HandyBalatro\lovely\controls_animation_skip.toml resulted in no matches
+WARN - [♥] Pattern 'if effects[ii].card then' on target 'functions/state_events.lua' for pattern patch from Talisman\lovely.toml resulted in no matches
+WARN - [♥] Pattern 'if effects.jokers.Xmult_mod then mult = mod_mult(mult*effects.jokers.Xmult_mod);extras.mult = true  end' on target 'functions/state_events.lua' for pattern patch from Talisman\lovely.toml resulted in no matches
+WARN - [♥] Pattern 'if effect.Xmult_mod then mult = mod_mult(mult*effect.Xmult_mod);extras.mult = true  end' on target 'functions/state_events.lua' for pattern patch from Talisman\lovely.toml resulted in no matches
+WARN - [♥] Pattern 'if effects[ii].message then' on target 'functions/state_events.lua' for pattern patch from Talisman\lovely.toml resulted in no matches
+WARN - [♥] Pattern '--calculate the card edition effects' on target 'functions/state_events.lua' for pattern patch from Talisman\lovely.toml resulted in no matches
+WARN - [♥] Pattern 'if effects[ii].edition.p_dollars_mod then' on target 'functions/state_events.lua' for pattern patch from Talisman\lovely.toml resulted in no matches
+WARN - [♥] Pattern 'if edition_effects.jokers.x_mult_mod then' on target 'functions/state_events.lua' for pattern patch from Talisman\lovely.toml resulted in no matches
+WARN - [♥] Pattern '\tfunc = (function() G.GAME.current_round.current_hand.handname = \'\';return true end)\n}))\ndelay(0.3)\n' on target 'functions/state_events.lua' for pattern patch from Talisman\lovely.toml resulted in no matches
+WARN - [♥] Pattern 'if SMODS.has_enhancement(scoring_hand[i], \'m_glass\') and scoring_hand[i]:can_calculate() and pseudorandom(\'glass\') < G.GAME.probabilities.normal/(scoring_hand[i].ability.name == \'Glass Card\' and scoring_hand[i].ability.extra or G.P_CENTERS.m_glass.config.extra) then' on target 'functions/state_events.lua' for pattern patch from Cryptid\lovely\Probability.toml resulted in no matches
+WARN - [♥] Regex '(?<indent>[\\t ]*)if destroyed then \\n' on target 'functions/state_events.lua' for regex patch from Cryptid\lovely\seal.toml resulted in no matches
+INFO - [♥] Applied 101 patches to 'functions/state_events.lua'
+WARN - [♥] Pattern 'func = (function() if eval_func(card) then if not first or first then card:juice_up(0.1, 0.1) end;juice_card_until(card, eval_func, nil, 0.8) end return true end)' on target 'functions/common_events.lua' for pattern patch from HandyBalatro\lovely\controls_animation_skip.toml resulted in no matches
+WARN - [♥] Pattern 'func = (function() if eval_func(card) then if not first or first then card:juice_up(0.1, 0.1) end;juice_card_until(card, eval_func, nil, 0.8) end return true end)' on target 'functions/common_events.lua' for pattern patch from HandyBalatro\lovely\controls_animation_skip.toml resulted in no matches
+WARN - [♥] Pattern 'if num_dollars > 60 then' on target 'functions/common_events.lua' for pattern patch from Talisman\lovely.toml resulted in no matches
+WARN - [♥] Pattern 'func = (function() card:juice_up(0.7);return true end)' on target 'functions/common_events.lua' for pattern patch from Talisman\lovely.toml resulted in no matches
+WARN - [♥] Pattern 'if card then card:juice_up(0.8, 0.5) end' on target 'functions/common_events.lua' for pattern patch from Talisman\lovely.toml resulted in no matches
+WARN - [♥] Pattern 'card:juice_up(0.6, 0.1)' on target 'functions/common_events.lua' for pattern patch from Talisman\lovely.toml resulted in no matches
+WARN - [♥] Pattern 'func = (function() if eval_func(card) then if not first or first then card:juice_up(0.1, 0.1) end;juice_card_until(card, eval_func, nil, 0.8) end return true end)' on target 'functions/common_events.lua' for pattern patch from Talisman\lovely.toml resulted in no matches
+WARN - [♥] Pattern 'func = (function() if eval_func(card) then if not first or first then card:juice_up(0.1, 0.1) end;juice_card_until(card, eval_func, nil, 0.8) end return true end)' on target 'functions/common_events.lua' for pattern patch from Talisman\lovely.toml resulted in no matches
+WARN - [♥] Pattern 'if amt > 0 or amt < 0 then' on target 'functions/common_events.lua' for pattern patch from Talisman\lovely.toml resulted in no matches
+WARN - [♥] Pattern 'if amt > 0 or amt < 0 then' on target 'functions/common_events.lua' for pattern patch from Talisman\lovely.toml resulted in no matches
+INFO - [♥] Applied 204 patches to 'functions/common_events.lua'
+WARN - [♥] Pattern 'if ((G.GAME.dollars-G.GAME.bankrupt_at) - 10 >= 0) and' on target 'functions/button_callbacks.lua' for pattern patch from Talisman\lovely.toml resulted in no matches
+WARN - [♥] Pattern 'if #G.hand.highlighted <= 0 or G.GAME.blind.block_play or #G.hand.highlighted > 5 then' on target 'functions/button_callbacks.lua' for pattern patch from CardSleeves\lovely\expected_to_fail.toml resulted in no matches
+INFO - [♥] Applied 90 patches to 'functions/button_callbacks.lua'
+WARN - [♥] Pattern 'Xmult_mod = G.P_CENTERS.v_observatory.config.extra' on target 'card.lua' for pattern patch from Incantation\lovely.toml resulted in no matches
+WARN - [♥] Pattern 'G.E_MANAGER:add_event(Event({func = (function() G.GAME.dollar_buffer = 0; return true end)}))' on target 'card.lua' for pattern patch from Talisman\lovely.toml resulted in no matches
+WARN - [♥] Pattern 'if G.GAME.blind then G.E_MANAGER:add_event(Event({ func = function() G.GAME.blind:set_blind(nil, true, nil); return true end })) end' on target 'card.lua' for pattern patch from Talisman\lovely.toml resulted in no matches
+WARN - [♥] Pattern 'x_mult = center.config.Xmult or 1,' on target 'card.lua' for pattern patch from Talisman\lovely.toml resulted in no matches
+WARN - [♥] Pattern 'local currentBack = self.params.viewed_back and G.GAME.viewed_back or G.GAME.selected_back' on target 'card.lua' for pattern patch from Galdur\lovely.toml resulted in no matches
+WARN - [♥] Regex 'self.params.viewed_back and G.GAME.viewed_back or G.GAME.selected_back' on target 'card.lua' for regex patch from CardSleeves\lovely\expected_to_fail.toml resulted in no matches
+INFO - [♥] Applied 288 patches to 'card.lua'
+INFO - [♥] Applied 33 patches to 'cardarea.lua'
+INFO - [♥] Applied 45 patches to 'blind.lua'
+INFO - [♥] Applied 2 patches to 'card_character.lua'
+WARN - [♥] Pattern 'if self.strings[k].W > self.config.W then' on target 'engine/text.lua' for pattern patch from Talisman\lovely.toml resulted in no matches
+WARN - [♥] Pattern 'local letter = self.strings[self.focused_string].letters[k]' on target 'engine/text.lua' for pattern patch from Talisman\lovely.toml resulted in no matches
+INFO - [♥] Applied 6 patches to 'engine/text.lua'
+WARN - [♥] Pattern 'if eff.retrigger_flag then SMODS.calculate_effect(eff, eff.card); j = j+1; _, eff = next(reps[j]) end' on target '=[SMODS _ "src/utils.lua"]' for pattern patch from Cryptid\lovely\misc.toml resulted in no matches
+INFO - [♥] Applied 12 patches to '=[SMODS _ "src/utils.lua"]'
+WARN - [♥] Pattern '    for _, v in ipairs(G.handlist) do\n\t\tif G.GAME.hands[v].visible then\n\t\t\ttable.insert(visible_hands, v)\n\t\tend\n\tend\n' on target '=[SMODS _ "src/overrides.lua"]' for pattern patch from Overflow\lovely\fixes.toml resulted in no matches
+WARN - [♥] Pattern 'for _, v in ipairs(G.handlist) do
+WARN - [♥] ' on target '=[SMODS _ "src/overrides.lua"]' for pattern patch from Overflow\lovely\fixes.toml resulted in 5 matches, wanted 4
+WARN - [♥] Ignoring excess matches
+WARN - [♥] Pattern 'card_limit = #SUITS[suit_map[j]],' on target '=[SMODS _ "src/overrides.lua"]' for pattern patch from Cartomancer\lovely\stackable-deck-steamodded.toml resulted in no matches
+WARN - [♥] Pattern 'card_limit = #SUITS[visible_suit[j]],' on target '=[SMODS _ "src/overrides.lua"]' for pattern patch from Cartomancer\lovely\stackable-deck-steamodded.toml resulted in no matches
+WARN - [♥] Regex '\t\t\tfor i = 1\\, \\#SUITS\\[suit_map\\[j\\]\\] do\n\t\t\t\tif SUITS\\[suit_map\\[j\\]\\]\\[i\\] then\n\t\t\t\t\tlocal greyed\\, _scale = nil\\, 0\\.7\n\t\t\t\t\tif unplayed_only and not \\(\\(SUITS\\[suit_map\\[j\\]\\]\\[i\\]\\.area and SUITS\\[suit_map\\[j\\]\\]\\[i\\]\\.area == G\\.deck\\) or SUITS\\[suit_map\\[j\\]\\]\\[i\\]\\.ability\\.wheel_flipped\\) then\n\t\t\t\t\t\tgreyed = true\n\t\t\t\t\tend\n\t\t\t\t\tlocal copy = copy_card\\(SUITS\\[suit_map\\[j\\]\\]\\[i\\]\\, nil\\, _scale[^\\)\\n]*\\)\n\t\t\t\t\tcopy\\.greyed = greyed\n\t\t\t\t\tcopy\\.T\\.x = view_deck\\.T\\.x \\+ view_deck\\.T\\.w \\/ 2\n\t\t\t\t\tcopy\\.T\\.y = view_deck\\.T\\.y\n\n\t\t\t\t\tcopy:hard_set_T\\(\\)\n\t\t\t\t\tview_deck:emplace\\(copy\\)\n\t\t\t\tend\n\t\t\tend' on target '=[SMODS _ "src/overrides.lua"]' for regex patch from Cartomancer\lovely\stackable-deck-steamodded.toml resulted in no matches
+INFO - [♥] Applied 15 patches to '=[SMODS _ "src/overrides.lua"]'
+INFO - [♥] Applied 2 patches to '=[SMODS _ "src/game_object.lua"]'
+INFO - [G] Failed to connect to the debug server 
+INFO - [G] 2025-08-20 23:12:29 :: DEBUG :: DebugConsole :: Steamodded Debug Socket started ! 
+INFO - [G] 2025-08-20 23:12:29 :: INFO  :: SMODS :: Steamodded v1.0.0~BETA-0711a 
+INFO - [G] Order not set for config dictionary: misc_quick_restart 
+INFO - [G] Order not set for config dictionary: speed_multiplier_default_value 
+INFO - [G] Order not set for config dictionary: misc_save_run 
+INFO - [G] Order not set for config dictionary: animation_skip_default_value 
+INFO - [G] [Blueprint] Starting to load config 
+INFO - [G] [Blueprint] Reading config file:  
+INFO - [G] [Blueprint] return {
+	["INTERNAL_debug"] = false,
+	["hello"] = true,
+	["brainstorm"] = true,
+	["blueprint"] = true,
+} 
+INFO - [G] [Blueprint] Removing setting `hello` because it is not in default config 
+INFO - [♥] Applied 3 patches to 'engine/save_manager.lua'
+INFO - [♥] Applied 9 patches to 'engine/sound_manager.lua'
+INFO - [♥] Applied 2 patches to 'engine/string_packer.lua'
+INFO - [G] Loaded all Blueprint mod shaders successfully 
+INFO - [♥] Applied 4 patches to '=[SMODS _ "src/card_draw.lua"]'
+INFO - [G] 2025-08-20 23:12:33 :: ERROR :: Loader :: Found invalid metadata JSON file at C:\Users\easto\AppData\Roaming\Balatro\Mods/Aikoyori'sShenanigans/.luarc.json, ignoring: [SMODS _ "src/loader.lua"]:226: id 
+INFO - [G] 2025-08-20 23:12:33 :: ERROR :: Loader :: Found invalid metadata JSON file at C:\Users\easto\AppData\Roaming\Balatro\Mods/Aikoyori'sShenanigans/.vscode/settings.json, ignoring: [SMODS _ "src/loader.lua"]:226: id 
+INFO - [G] 2025-08-20 23:12:33 :: INFO  :: Loader :: Valid JSON file found 
+INFO - [G] 2025-08-20 23:12:33 :: TRACE :: Loader :: Processing Mod file (Legacy header): Aurinko.lua 
+INFO - [G] 2025-08-20 23:12:33 :: TRACE :: Loader :: Saving Mod Info: aurinko 
+INFO - [G] 2025-08-20 23:12:33 :: TRACE :: Loader :: Processing Mod file (Legacy header): BetterMouseAndGamepad.lua 
+INFO - [G] 2025-08-20 23:12:33 :: TRACE :: Loader :: Saving Mod Info: BetterMouseAndGamepad 
+INFO - [G] 2025-08-20 23:12:33 :: INFO  :: Loader :: Valid JSON file found 
+INFO - [G] 2025-08-20 23:12:33 :: TRACE :: Loader :: Processing Mod file (Legacy header): steamodded_compat.lua 
+INFO - [G] 2025-08-20 23:12:33 :: TRACE :: Loader :: Saving Mod Info: Brainstorm 
+INFO - [G] 2025-08-20 23:12:33 :: INFO  :: Loader :: Valid JSON file found 
+INFO - [G] 2025-08-20 23:12:33 :: TRACE :: Loader :: Processing Mod file (Legacy header): mod.lua 
+INFO - [G] 2025-08-20 23:12:33 :: TRACE :: Loader :: Saving Mod Info: cartomancer 
+INFO - [G] 2025-08-20 23:12:33 :: INFO  :: Loader :: Valid JSON file found 
+INFO - [G] 2025-08-20 23:12:33 :: INFO  :: Loader :: Valid JSON file found 
+INFO - [G] 2025-08-20 23:12:33 :: INFO  :: Loader :: Valid JSON file found 
+INFO - [G] 2025-08-20 23:12:33 :: INFO  :: Loader :: Valid JSON file found 
+INFO - [G] 2025-08-20 23:12:33 :: INFO  :: Loader :: Valid JSON file found 
+INFO - [G] 2025-08-20 23:12:33 :: INFO  :: Loader :: Valid JSON file found 
+INFO - [G] 2025-08-20 23:12:33 :: INFO  :: Loader :: Valid JSON file found 
+INFO - [G] 2025-08-20 23:12:33 :: INFO  :: Loader :: Valid JSON file found 
+INFO - [G] 2025-08-20 23:12:33 :: TRACE :: Loader :: Processing Mod file (Legacy header): steamodded.lua 
+INFO - [G] 2025-08-20 23:12:33 :: WARN  :: Loader :: Duplicate Mod ID: Handy 
+INFO - [G] 2025-08-20 23:12:33 :: INFO  :: Loader :: Valid JSON file found 
+INFO - [G] 2025-08-20 23:12:33 :: INFO  :: Loader :: Valid JSON file found 
+INFO - [G] 2025-08-20 23:12:33 :: TRACE :: Loader :: Processing Mod file (Legacy header): JenLib.lua 
+INFO - [G] 2025-08-20 23:12:33 :: TRACE :: Loader :: Saving Mod Info: JenLib 
+INFO - [G] 2025-08-20 23:12:33 :: INFO  :: Loader :: Valid JSON file found 
+INFO - [G] 2025-08-20 23:12:33 :: INFO  :: Loader :: Valid JSON file found 
+INFO - [G] 2025-08-20 23:12:34 :: TRACE :: Loader :: Processing Mod file (Legacy header): LocalPoolFix.lua 
+INFO - [G] 2025-08-20 23:12:34 :: TRACE :: Loader :: Saving Mod Info: jen_localpoolfix 
+INFO - [G] 2025-08-20 23:12:34 :: TRACE :: Loader :: Processing Mod file (Legacy header): Loop.lua 
+INFO - [G] 2025-08-20 23:12:34 :: TRACE :: Loader :: Saving Mod Info: loop 
+INFO - [G] 2025-08-20 23:12:34 :: INFO  :: Loader :: Valid JSON file found 
+INFO - [G] 2025-08-20 23:12:34 :: INFO  :: Loader :: Valid JSON file found 
+INFO - [G] 2025-08-20 23:12:34 :: TRACE :: Loader :: Processing Mod file (Legacy header): MoreJokerPacks.lua 
+INFO - [G] 2025-08-20 23:12:34 :: TRACE :: Loader :: Saving Mod Info: MoreJokerPacks 
+INFO - [G] 2025-08-20 23:12:34 :: TRACE :: Loader :: Processing Mod file (Legacy header): Nopeus.lua 
+INFO - [G] 2025-08-20 23:12:34 :: TRACE :: Loader :: Saving Mod Info: nopeus 
+INFO - [G] 2025-08-20 23:12:34 :: TRACE :: Loader :: Processing Mod file (Legacy header): main.lua 
+INFO - [G] 2025-08-20 23:12:34 :: TRACE :: Loader :: Saving Mod Info: NotJustYet 
+INFO - [G] 2025-08-20 23:12:34 :: INFO  :: Loader :: Valid JSON file found 
+INFO - [G] 2025-08-20 23:12:34 :: TRACE :: Loader :: Processing Mod file (Legacy header): PreorderCards.lua 
+INFO - [G] 2025-08-20 23:12:34 :: TRACE :: Loader :: Saving Mod Info: preorder_cards 
+INFO - [G] 2025-08-20 23:12:34 :: INFO  :: Loader :: Valid JSON file found 
+INFO - [G] 2025-08-20 23:12:34 :: INFO  :: Loader :: Valid JSON file found 
+INFO - [G] 2025-08-20 23:12:34 :: ERROR :: Loader :: Found invalid metadata JSON file at C:\Users\easto\AppData\Roaming\Balatro\Mods/StickyFingers/.vscode/settings.json, ignoring: [SMODS _ "src/loader.lua"]:226: id 
+INFO - [G] 2025-08-20 23:12:34 :: INFO  :: Loader :: Valid JSON file found 
+INFO - [G] 2025-08-20 23:12:34 :: INFO  :: Loader :: Valid JSON file found 
+INFO - [G] 2025-08-20 23:12:34 :: TRACE :: Loader :: Processing Mod file (Legacy header): steamodded_metadata.lua 
+INFO - [G] 2025-08-20 23:12:34 :: TRACE :: Loader :: Saving Mod Info: Talisman 
+INFO - [G] 2025-08-20 23:12:34 :: TRACE :: Loader :: Processing Mod file (Legacy header): IOSAdaptation.lua 
+INFO - [G] 2025-08-20 23:12:34 :: TRACE :: Loader :: Saving Mod Info: IOSAdaptation 
+INFO - [G] 2025-08-20 23:12:34 :: TRACE :: Loader :: Processing Mod file (Legacy header): UltraHand.lua 
+INFO - [G] 2025-08-20 23:12:34 :: TRACE :: Loader :: Saving Mod Info: UltraHand 
+INFO - [G] 2025-08-20 23:12:34 :: INFO  :: Loader :: Valid JSON file found 
+INFO - [G] 2025-08-20 23:12:34 :: TRACE :: Loader :: Processing Mod file (Legacy header): Extras.lua 
+INFO - [G] 2025-08-20 23:12:34 :: TRACE :: Loader :: Saving Mod Info: BalatroDarkMode 
+INFO - [G] 2025-08-20 23:12:34 :: TRACE :: Loader :: Processing Mod file (Legacy header): main.lua 
+INFO - [G] 2025-08-20 23:12:34 :: TRACE :: Loader :: Saving Mod Info: darktextures 
+INFO - [G] 2025-08-20 23:12:34 :: TRACE :: Loader :: Processing Mod file (Legacy header): multipack.lua 
+INFO - [G] 2025-08-20 23:12:34 :: TRACE :: Loader :: Saving Mod Info: Multipack 
+INFO - [G] 2025-08-20 23:12:34 :: TRACE :: Loader :: Mod malverk was unable to load:  
+INFO - [G] 2025-08-20 23:12:34 :: TRACE :: Loader :: Mod YGGDRASIL was unable to load:  
+INFO - [G] 2025-08-20 23:12:34 :: INFO  :: CardSleeves :: CardSleeves v1.8.0 loaded~! 
+INFO - [G] 2025-08-20 23:12:34 :: TRACE :: Loader :: Mod BalatroDarkMode was unable to load:  
+INFO - [G] 2025-08-20 23:12:34 :: TRACE :: Loader :: Mod CryptidMoreMarioJokers was unable to load:  
+INFO - [G] 2025-08-20 23:12:34 :: DEBUG :: DefaultLogger :: IOS Adaptation! 
+INFO - [G] 2025-08-20 23:12:34 :: TRACE :: Loader :: Mod MoreFluff was unable to load:  
+INFO - [G] 2025-08-20 23:12:34 :: TRACE :: Loader :: Mod darktextures was unable to load: Missing Dependencies: 1: malverk
+
+ 
+INFO - [G] 2025-08-20 23:12:34 :: TRACE :: Loader :: Mod sdm0sstuff was unable to load:  
+INFO - [G] 2025-08-20 23:12:34 :: WARN  :: Atlas :: Detected duplicate register call on object njy_modicon 
+INFO - [G] 2025-08-20 23:12:34 :: TRACE :: Loader :: Mod extracredit was unable to load:  
+INFO - [G] 2025-08-20 23:12:34 :: WARN  :: Atlas :: Detected duplicate register call on object ovrf_modicon 
+INFO - [G] [CRYPTID] Loading library file ascended.lua 
+INFO - [G] [CRYPTID] Loading library file calculate.lua 
+INFO - [G] [CRYPTID] Loading library file content.lua 
+INFO - [G] [CRYPTID] Loading library file cross-mod.lua 
+INFO - [G] Table:
+colour: Table:
+  1: 0.65490196078431
+  2: 0.50980392156863
+  3: 0.81960784313725
+  4: 1
+
+voucher_key: v_cry_tacclimator
+localization_key: b_tarot_rate
+ref_value: tarot
+ 
+INFO - [G] Table:
+colour: Table:
+  1: 0.074509803921569
+  2: 0.68627450980392
+  3: 0.8078431372549
+  4: 1
+
+voucher_key: v_cry_pacclimator
+localization_key: b_planet_rate
+ref_value: planet
+ 
+INFO - [G] [CRYPTID] Loading library file d20.lua 
+INFO - [G] [CRYPTID] Loading library file event.lua 
+INFO - [G] [CRYPTID] Loading library file forcetrigger.lua 
+INFO - [G] [CRYPTID] Loading library file gameset.lua 
+INFO - [G] [CRYPTID] Loading library file https.lua 
+INFO - [G] 2025-08-20 23:12:34 :: DEBUG :: SMODS.https :: Using https module backend 
+INFO - [G] [CRYPTID] Loading library file misc.lua 
+INFO - [G] [CRYPTID] Loading library file misprintize.lua 
+INFO - [G] [CRYPTID] Loading library file modifiers.lua 
+INFO - [G] 2025-08-20 23:12:34 :: WARN  :: Sticker :: Detected duplicate register call on object perishable 
+INFO - [G] 2025-08-20 23:12:34 :: WARN  :: Sticker :: Detected duplicate register call on object pinned 
+INFO - [G] 2025-08-20 23:12:34 :: WARN  :: Sticker :: Detected duplicate register call on object eternal 
+INFO - [G] 2025-08-20 23:12:34 :: WARN  :: Sticker :: Detected duplicate register call on object rental 
+INFO - [G] [CRYPTID] Loading library file notifications.lua 
+INFO - [G] [CRYPTID] Loading library file overrides.lua 
+INFO - [G] [CRYPTID] Loading library file pointerlib.lua 
+INFO - [G] [CRYPTID] Loading library file ui.lua 
+INFO - [G] [CRYPTID] Loading file achievement.lua 
+INFO - [G] [CRYPTID] Loading file blind.lua 
+INFO - [G] [CRYPTID] Loading file challenge.lua 
+INFO - [G] [CRYPTID] Loading file code.lua 
+INFO - [G] [CRYPTID] Loading file deck.lua 
+INFO - [G] [CRYPTID] Loading file enhanced.lua 
+INFO - [G] [CRYPTID] Loading file epic.lua 
+INFO - [G] [CRYPTID] Loading file exotic.lua 
+INFO - [G] [CRYPTID] Loading file joker_display.lua 
+INFO - [G] [CRYPTID] Loading file m.lua 
+INFO - [G] [CRYPTID] Loading file misc.lua 
+INFO - [G] [CRYPTID] Loading file misc_joker.lua 
+INFO - [G] [CRYPTID] Loading file planet.lua 
+INFO - [G] [CRYPTID] Loading file pointer.lua 
+INFO - [G] [CRYPTID] Loading file sleeve.lua 
+INFO - [G] [CRYPTID] Loading file spectral.lua 
+INFO - [G] [CRYPTID] Loading file spooky.lua 
+INFO - [G] [CRYPTID] Loading file stake.lua 
+INFO - [G] [CRYPTID] Loading file tag.lua 
+INFO - [G] [CRYPTID] Loading file test.lua 
+INFO - [G] [CRYPTID] Loading file voucher.lua 
+INFO - [G] 2025-08-20 23:12:34 :: WARN  :: Atlas :: Object cry_effarcire has the same key as an existing object, not registering. 
+INFO - [G] 2025-08-20 23:12:34 :: WARN  :: Atlas :: If you want to modify an existing object, use take_ownership() 
+INFO - [G] 2025-08-20 23:12:34 :: TRACE :: Loader :: Mod aikoyorisshenanigans was unable to load:  
+INFO - [G] 2025-08-20 23:12:34 :: TRACE :: Loader :: Mod kino was unable to load:  
+INFO - [G] 2025-08-20 23:12:34 :: TRACE :: Loader :: Mod eramdam.sticky-fingers was unable to load:  
+INFO - [G] 2025-08-20 23:12:34 :: TRACE :: Loader :: Mod SuitOrder was unable to load:  
+INFO - [G] 2025-08-20 23:12:34 :: TRACE :: Loader :: Mod cryptposting was unable to load:  
+INFO - [G] 2025-08-20 23:12:34 :: TRACE :: Loader :: Mod jen was unable to load: Missing Dependencies: 1: nopeus (>=2.2.5)
+2: Cryptid (==0.5.5a~dev2)
+
+ 
+INFO - [G] 2025-08-20 23:12:34 :: INFO  :: TIMER :: [0000] Injected Fonts in 0.011 ms 
+INFO - [G] 2025-08-20 23:12:34 :: INFO  :: TIMER :: [0000] Injected Language in 0.037 ms 
+INFO - [G] 2025-08-20 23:12:34 :: INFO  :: TIMER :: [0000] Injected [INTERNAL] in 2.356 ms 
+INFO - [G] 2025-08-20 23:12:37 :: INFO  :: TIMER :: [0059] Injected Atlas in 2805.796 ms 
+INFO - [G] 2025-08-20 23:12:37 :: INFO  :: TIMER :: [0032] Injected Sound in 31.241 ms 
+INFO - [G] 2025-08-20 23:12:37 :: INFO  :: TIMER :: [0032] Injected Stake in 2.237 ms 
+INFO - [G] 2025-08-20 23:12:37 :: INFO  :: TIMER :: [0008] Injected Rarity in 0.092 ms 
+INFO - [G] 2025-08-20 23:12:37 :: INFO  :: TIMER :: [0010] Injected ObjectType in 0.628 ms 
+INFO - [G] 2025-08-20 23:12:37 :: INFO  :: TIMER :: [0482] Injected Center in 5.499 ms 
+INFO - [G] 2025-08-20 23:12:37 :: INFO  :: TIMER :: [0009] Injected Undiscovered Sprite in 0.092 ms 
+INFO - [G] 2025-08-20 23:12:37 :: INFO  :: TIMER :: [0034] Injected Blind in 0.406 ms 
+INFO - [G] 2025-08-20 23:12:37 :: INFO  :: TIMER :: [0006] Injected Seal in 0.401 ms 
+INFO - [G] 2025-08-20 23:12:37 :: INFO  :: TIMER :: [0004] Injected Suit in 0.147 ms 
+INFO - [G] 2025-08-20 23:12:37 :: INFO  :: TIMER :: [0013] Injected Rank in 0.325 ms 
+INFO - [G] 2025-08-20 23:12:37 :: INFO  :: TIMER :: [0028] Injected DeckSkin in 0.813 ms 
+INFO - [G] 2025-08-20 23:12:37 :: INFO  :: TIMER :: [0020] Injected PokerHand in 0.845 ms 
+INFO - [G] 2025-08-20 23:12:37 :: INFO  :: TIMER :: [0031] Injected Challenge in 0.237 ms 
+INFO - [G] 2025-08-20 23:12:37 :: INFO  :: TIMER :: [0031] Injected Tag in 0.399 ms 
+INFO - [G] 2025-08-20 23:12:37 :: INFO  :: TIMER :: [0011] Injected Sticker in 1.896 ms 
+INFO - [G] 2025-08-20 23:12:38 :: INFO  :: TIMER :: [0011] Injected Shader in 607.246 ms 
+INFO - [G] 2025-08-20 23:12:38 :: INFO  :: TIMER :: [0002] Injected Keybind in 0.032 ms 
+INFO - [G] 2025-08-20 23:12:38 :: INFO  :: TIMER :: [0022] Injected Achievement in 0.333 ms 
+INFO - [G] 2025-08-20 23:12:38 :: INFO  :: TIMER :: [0002] Injected nil in 0.042 ms 
+INFO - [G] 2025-08-20 23:12:38 :: INFO  :: TIMER :: [0025] Injected Draw Step in 0.146 ms 
+INFO - [G] 2025-08-20 23:12:38 :: INFO  :: TIMER :: [0000] Injected [INTERNAL] in 68.488 ms 
+INFO - [G] 2025-08-20 23:12:38 :: INFO  :: TIMER :: [0010] Injected Other in 0.101 ms 
+INFO - [G] Warning: Circular dependency with set_cry_misc_joker 
+INFO - [G] Warning: Circular dependency with j_cry_pizza 
+INFO - [G] Warning: Circular dependency with set_cry_misc_joker 
+INFO - [G] Warning: Circular dependency with j_cry_pizza_slice 
+INFO - [G] [DebugPlus] Press [/] to toggle console and press [shift] + [/] to toggle new log previews 
+INFO - [♥] Applied 0 patches to '=[SMODS _ "smods-https-thread.lua"]'
+INFO - [G] 2025-08-20 23:12:43 :: DEBUG :: SMODS.https(1) :: Using https module backend 
+INFO - [♥] Applied 0 patches to '=[SMODS _ "smods-https-thread.lua"]'
+INFO - [G] 2025-08-20 23:13:44 :: DEBUG :: SMODS.https(2) :: Using https module backend 
+INFO - [G] [DebugPlus] jit.profile unavalible. Falling back to vanilla profiler.
+ module 'jit.profile' not found:
+	no field package.preload['jit.profile']
+	no 'jit/profile' in LOVE game directories.
+	no file 'jit/profile' in LOVE paths.
+	no file '.\jit\profile.lua'
+	no file 'C:\games\Balatro.v1.0.1o\Balatro.v1.0.1o\game\lua\jit\profile.lua'
+	no file 'C:\games\Balatro.v1.0.1o\Balatro.v1.0.1o\game\lua\jit\profile\init.lua'
+	no file '.\jit\profile.dll'
+	no file 'C:\games\Balatro.v1.0.1o\Balatro.v1.0.1o\game\jit\profile.dll'
+	no file 'C:\games\Balatro.v1.0.1o\Balatro.v1.0.1o\game\loadall.dll'
+	no file '.\jit.dll'
+	no file 'C:\games\Balatro.v1.0.1o\Balatro.v1.0.1o\game\jit.dll'
+	no file 'C:\games\Balatro.v1.0.1o\Balatro.v1.0.1o\game\loadall.dll' 
+INFO - [G] [DebugPlus] Enabled performance profiler. Press 'v' again to disable it. 
+INFO - [♥] Applied 0 patches to '=[SMODS _ "smods-https-thread.lua"]'
+INFO - [G] 2025-08-20 23:14:48 :: DEBUG :: SMODS.https(3) :: Using https module backend 
+INFO - [G] 
+ +-----+-------------------------------+-------------+--------------------------+----------------------------------+ 
+ | #   | Function                      | Calls       | Time                     | Code                             | 
+ +-----+-------------------------------+-------------+--------------------------+----------------------------------+ 
+ | 1   | ?                             | 130         | 22.125                   | main.lua:909                     | 
+ | 2   | calculate_xywh                | 303         | 21.961                   | S JokerDisplay "src/ui.lua"]:353 | 
+ | 3   | resolve                       | 700         | 17.089                   | er "modules/controller.lua"]:561 | 
+ | 4   | update                        | 130         | 13.744                   | main.lua:2758                    | 
+ | 5   | oldupd                        | 130         | 13.743                   | r "modules/controller.lua"]:1026 | 
+ | 6   | love_update_ref               | 130         | 13.709                   | main.lua:1026                    | 
+ | 7   | update                        | 130         | 13.708                   | Cryptid "lib/overrides.lua"]:344 | 
+ | 8   | upd                           | 130         | 13.691                   | DS Cryptid "lib/gameset.lua"]:26 | 
+ | 9   | gu                            | 130         | 13.69                    | S Multipack "multipack.lua"]:553 | 
+ | 10  | game_updateref                | 130         | 13.69                    | emclock.core "src/core.lua"]:120 | 
+ | 11  | game_update_ref               | 130         | 13.689                   | main.lua:2725                    | 
+ | 12  | update_ref                    | 130         | 13.687                   | [SMODS _ "src/ui.lua"]:59        | 
+ | 13  | upd                           | 130         | 13.687                   | main.lua:1747                    | 
+ | 14  | gameUpdateRef                 | 130         | 13.687                   | game.lua:2596                    | 
+ | 15  | draw                          | 130         | 8.2480000000002          | main.lua:1032                    | 
+ | 16  | draw                          | 130         | 8.2150000000001          | game.lua:2949                    | 
+ | 17  | draw                          | 5957        | 6.7079999999998          | engine/ui.lua:289                | 
+ | 18  | pow                           | 390         | 6.3819999999999          | /Roaming/Balatro/Mods/T..."]:833 | 
+ | 19  | draw_self                     | 42905       | 6.2289999999994          | engine/ui.lua:670                | 
+ | 20  | draw_children                 | 42905       | 5.2609999999993          | engine/ui.lua:541                | 
+ | 21  | draw                          | 3099        | 5.1289999999995          | engine/text.lua:280              | 
+ | 22  | to_big                        | 233453      | 4.6670000000005          | main.lua:2603                    | 
+ | 23  | move                          | 111762      | 3.3290000000004          | engine/moveable.lua:278          | 
+ | 24  | create                        | 289125      | 2.7520000000001          | /Roaming/Balatro/Mods/T..."]:185 | 
+ | 25  | is_module_key                 | 10          | 2.535                    | er "modules/controller.lua"]:662 | 
+ | 26  | move_with_major               | 81816       | 2.2139999999997          | engine/moveable.lua:350          | 
+ | 27  | nuGC                          | 130         | 2.137                    | functions/misc_functions.lua:717 | 
+ | 28  | update                        | 3099        | 2.1299999999999          | engine/text.lua:66               | 
+ | 29  | update                        | 62148       | 2.0809999999996          | engine/ui.lua:948                | 
+ | 30  | align_letters                 | 3099        | 1.969                    | engine/text.lua:185              | 
+ | 31  | draw                          | 910         | 1.3530000000002          | dSleeves "CardSleeves.lua"]:1917 | 
+ | 32  | old_CardArea_draw             | 910         | 1.2450000000001          | cardarea.lua:313                 | 
+ | 33  | recalculate                   | 1039        | 1.2410000000003          | engine/ui.lua:312                | 
+ | 34  | compareTo                     | 28210       | 1.201                    | a/Roaming/Balatro/Mods/T..."]:99 | 
+ | 35  | draw                          | 3380        | 1.052                    | SMODS _ "src/card_draw.lua"]:506 | 
+ | 36  | ?                             | 260         | 1.0409999999997          | ctions/button_callbacks.lua:1982 | 
+ | 37  | update                        | 7540        | 0.988                    | Cryptid "lib/modifiers.lua"]:308 | 
+ | 38  | to_number                     | 236736      | 0.97299999999944         | /Roaming/Balatro/Mods/T..."]:522 | 
+ | 39  | updateref                     | 7540        | 0.95600000000013         | "src/display_functions.lua"]:478 | 
+ | 40  | recalculate                   | 909         | 0.83300000000023         | DS JokerDisplay "src/ui.lua"]:79 | 
+ | 41  | is_module_key_down            | 265         | 0.82099999999986         | er "modules/controller.lua"]:652 | 
+ | 42  | update_ref                    | 130         | 0.80600000000015         | engine/controller.lua:188        | 
+ | 43  | update                        | 130         | 0.80600000000015         | "BetterMouseAndGamepad.lua"]:203 | 
+ | 44  | get_cursor_collision          | 130         | 0.77900000000022         | engine/controller.lua:1077       | 
+ | 45  | gt                            | 6240        | 0.73699999999982         | /Roaming/Balatro/Mods/T..."]:141 | 
+ | 46  | collides_with_point           | 31684       | 0.71200000000016         | engine/node.lua:145              | 
+ | 47  | clone                         | 29802       | 0.69900000000001         | /Roaming/Balatro/Mods/T..."]:563 | 
+ | 48  | create                        | 3380        | 0.58499999999995         | /Roaming/Balatro/Mods/T..."]:324 | 
+ | 49  | move_scale                    | 98058       | 0.53300000000019         | engine/moveable.lua:423          | 
+ | 50  | move                          | 6225        | 0.52199999999982         | engine/ui.lua:326                | 
+ | 51  | log                           | 191507      | 0.51200000000028         | main.lua:2333                    | 
+ | 52  | move                          | 7540        | 0.48800000000003         | [SMODS Cryptid "lib/ui.lua"]:249 | 
+ | 53  | m                             | 7540        | 0.46099999999993         | ryptid "lib/overrides.lua"]:1693 | 
+ | 54  | carmv                         | 7540        | 0.43299999999991         | card.lua:4868                    | 
+ | 55  | ?                             | 130         | 0.41700000000006         | [SMODS _ "src/overrides.lua"]:11 | 
+ | 56  | initialize_VT                 | 8133        | 0.37200000000001         | engine/ui.lua:501                | 
+ | 57  | prep_draw                     | 31724       | 0.31699999999978         | functions/misc_functions.lua:922 | 
+ | 58  | check_conditions              | 84500       | 0.30300000000005         | [SMODS _ "src/card_draw.lua"]:36 | 
+ | 59  | to_number                     | 127179      | 0.3000000000001          | main.lua:2627                    | 
+ | 60  | eq                            | 11960       | 0.28800000000004         | /Roaming/Balatro/Mods/T..."]:153 | 
+ | 61  | draw_shader                   | 3250        | 0.28399999999993         | engine/sprite.lua:75             | 
+ | 62  | get_major                     | 98850       | 0.2769999999999          | engine/moveable.lua:486          | 
+ | 63  | neg                           | 8742        | 0.25199999999998         | /Roaming/Balatro/Mods/T..."]:157 | 
+ | 64  | modulate_sound                | 130         | 0.23699999999997         | functions/misc_functions.lua:791 | 
+ | 65  | __lt                          | 8840        | 0.21899999999999         | /Roaming/Balatro/Mods/T..."]:137 | 
+ | 66  | move_r                        | 16886       | 0.21500000000003         | engine/moveable.lua:451          | 
+ | 67  | align_to_major                | 112289      | 0.20900000000012         | engine/moveable.lua:117          | 
+ | 68  | draw                          | 2600        | 0.20500000000004         | engine/sprite.lua:186            | 
+ | 69  | get_current_music             | 130         | 0.20399999999998         | ODS _ "src/game_object.lua"]:524 | 
+ | 70  | calculate_xywh                | 7830        | 0.19500000000016         | engine/ui.lua:120                | 
+ | 71  | move_xy                       | 18193       | 0.19099999999992         | engine/moveable.lua:405          | 
+ | 72  | calculate_parrallax           | 107277      | 0.1879999999999          | engine/moveable.lua:463          | 
+ | 73  | move_wh                       | 98058       | 0.17100000000019         | engine/moveable.lua:434          | 
+ | 74  | move                          | 910         | 0.16000000000017         | cardarea.lua:256                 | 
+ | 75  | select_music_track            | 130         | 0.15799999999996         | S Cryptid "lib/content.lua"]:565 | 
+ | 76  | move_juice                    | 98578       | 0.1520000000001          | engine/moveable.lua:267          | 
+ | 77  | update_text                   | 3232        | 0.14899999999997         | engine/text.lua:71               | 
+ | 78  | update_text                   | 11441       | 0.14099999999999         | S JokerDisplay "src/ui.lua"]:327 | 
+ | 79  | update                        | 100087      | 0.13200000000001         | engine/node.lua:391              | 
+ | 80  | update                        | 910         | 0.12900000000005         | cardarea.lua:270                 | 
+ | 81  | draw_self                     | 4160        | 0.12199999999993         | engine/sprite.lua:150            | 
+ | 82  | point_translate               | 63628       | 0.11300000000006         | functions/misc_functions.lua:958 | 
+ | 83  | draw                          | 7670        | 0.11200000000005         | engine/moveable.lua:85           | 
+ | 84  | set_alignments                | 8133        | 0.11100000000005         | engine/ui.lua:593                | 
+ | 85  | func                          | 1690        | 0.1100000000001          | [SMODS _ "src/card_draw.lua"]:49 | 
+ | 86  | draw_boundingrect             | 72639       | 0.11000000000004         | engine/node.lua:93               | 
+ | 87  | align_cards                   | 910         | 0.10600000000014         | dSleeves "CardSleeves.lua"]:1975 | 
+ | 88  | point_rotate                  | 31814       | 0.10599999999988         | functions/misc_functions.lua:963 | 
+ | 89  | align                         | 33831       | 0.093000000000018        | engine/ui.lua:583                | 
+ | 90  | func                          | 1690        | 0.090999999999866        | SMODS _ "src/card_draw.lua"]:480 | 
+ | 91  | draw_pixellated_rect          | 12937       | 0.087000000000188        | engine/ui.lua:863                | 
+ | 92  | old_CardArea_align_cards      | 910         | 0.087000000000074        | [SMODS galdur "galdur.lua"]:185  | 
+ | 93  | card_area_align_ref           | 910         | 0.080000000000041        | g " Blueprint - core.main "]:437 | 
+ | 94  | set_values                    | 8133        | 0.077999999999804        | engine/ui.lua:366                | 
+ | 95  | check_individual_condition    | 40690       | 0.069000000000045        | [SMODS _ "src/card_draw.lua"]:30 | 
+ | 96  | draw                          | 7800        | 0.06800000000004         | engine/node.lua:129              | 
+ | 97  | func                          | 780         | 0.06699999999995         | SMODS _ "src/card_draw.lua"]:151 | 
+ | 98  | draw                          | 36940       | 0.06300000000013         | engine/ui.lua:538                | 
+ | 99  | EMPTY                         | 28703       | 0.061999999999955        | functions/misc_functions.lua:131 | 
+ | 100 | cardarea_align_cards          | 910         | 0.059999999999974        | cardarea.lua:457                 | 
+ | 101 | draw                          | 260         | 0.057000000000073        | tag.lua:595                      | 
+ | 102 | translate_container           | 10003       | 0.053999999999974        | engine/node.lua:309              | 
+ | 103 | add_to_drawhash               | 31684       | 0.04800000000003         | functions/misc_functions.lua:741 | 
+ | 104 | move                          | 130         | 0.047999999999945        | blind.lua:748                    | 
+ | 105 | card_update_ref               | 7540        | 0.047999999999888        | card.lua:4706                    | 
+ | 106 | text_format                   | 3120        | 0.04200000000003         | S JokerDisplay "src/ui.lua"]:399 | 
+ | 107 | uielement_update_text_ref     | 8798        | 0.039999999999964        | engine/ui.lua:624                | 
+ | 108 | func                          | 910         | 0.036999999999978        | SMODS _ "src/card_draw.lua"]:411 | 
+ | 109 | set_role                      | 8916        | 0.036999999999921        | engine/moveable.lua:468          | 
+ | 110 | glue_to_major                 | 21840       | 0.03600000000003         | engine/moveable.lua:329          | 
+ | 111 | __le                          | 1170        | 0.03500000000011         | /Roaming/Balatro/Mods/T..."]:145 | 
+ | 112 | ?                             | 130         | 0.03499999999994         | ctions/button_callbacks.lua:1918 | 
+ | 113 | process_update                | 130         | 0.03399999999985         | er "modules/controller.lua"]:989 | 
+ | 114 | abs                           | 910         | 0.031999999999925        | /Roaming/Balatro/Mods/T..."]:163 | 
+ | 115 | doConsoleRender               | 130         | 0.029000000000053        | ole "debugplus/console.lua"]:623 | 
+ | 116 | number_format                 | 911         | 0.023999999999944        | unctions/misc_functions.lua:1091 | 
+ | 117 | is_module_enabled             | 1086        | 0.023000000000053        | er "modules/controller.lua"]:673 | 
+ | 118 | func                          | 910         | 0.022999999999996        | [SMODS Cryptid "lib/ui.lua"]:9   | 
+ | 119 | set_wh                        | 8133        | 0.022999999999968        | engine/ui.lua:553                | 
+ | 120 | draw_self                     | 780         | 0.022000000000077        | engine/animatedsprite.lua:62     | 
+ | 121 | ?                             | 390         | 0.021000000000015        | nctions/button_callbacks.lua:415 | 
+ | 122 | ?                             | 130         | 0.02000000000001         | ctions/button_callbacks.lua:1910 | 
+ | 123 | override_node_button          | 390         | 0.019000000000005        | er "modules/controller.lua"]:269 | 
+ | 124 | get_display_areas             | 7540        | 0.016999999999967        | JokerDisplay "src/utils.lua"]:76 | 
+ | 125 | ?                             | 780         | 0.016999999999967        | "src/display_functions.lua"]:388 | 
+ | 126 | func                          | 1690        | 0.01499999999993         | SMODS _ "src/card_draw.lua"]:500 | 
+ | 127 | hover                         | 1           | 0.01400000000001         | [SMODS Cryptid "lib/ui.lua"]:314 | 
+ | 128 | ch                            | 1           | 0.01400000000001         | dSleeves "CardSleeves.lua"]:2038 | 
+ | 129 | old_Card_hover                | 1           | 0.01400000000001         | [SMODS galdur "galdur.lua"]:54   | 
+ | 130 | card_hover_ref                | 1           | 0.01400000000001         | card.lua:4907                    | 
+ | 131 | func                          | 1690        | 0.013999999999982        | [SMODS _ "src/card_draw.lua"]:81 | 
+ | 132 | joker_display_has_info        | 1083        | 0.013999999999953        | S JokerDisplay "src/ui.lua"]:321 | 
+ | 133 | update_alert                  | 7540        | 0.013999999999896        | card.lua:82                      | 
+ | 134 | retrigger_format              | 3120        | 0.013000000000034        | S JokerDisplay "src/ui.lua"]:411 | 
+ | 135 | m                             | 1866        | 0.013000000000034        | config "modules/config.lua"]:464 | 
+ | 136 | calcHeight                    | 531         | 0.013000000000034        | ole "debugplus/console.lua"]:557 | 
+ | 137 | update_object                 | 5179        | 0.013000000000005        | engine/ui.lua:638                | 
+ | 138 | safe_get                      | 914         | 0.012999999999977        | MODS Cryptid "lib/misc.lua"]:592 | 
+ | 139 | move_wh                       | 2340        | 0.012999999999948        | S JokerDisplay "src/ui.lua"]:317 | 
+ | 140 | number_format                 | 3120        | 0.011000000000053        | JokerDisplay "src/utils.lua"]:50 | 
+ | 141 | init                          | 2           | 0.010999999999996        | engine/ui.lua:20                 | 
+ | 142 | animate                       | 520         | 0.010999999999939        | engine/animatedsprite.lua:79     | 
+ | 143 | update                        | 130         | 0.01099999999991         | t_yet_interaction "modules/co:27 | 
+ | 144 | func                          | 780         | 0.0099999999999909       | SMODS _ "src/card_draw.lua"]:383 | 
+ | 145 | hover                         | 7           | 0.0099999999999909       | engine/node.lua:269              | 
+ | 146 | darken                        | 3223        | 0.0090000000000146       | functions/misc_functions.lua:985 | 
+ | 147 | select_music_track            | 130         | 0.0090000000000146       | S Cryptid "lib/content.lua"]:538 | 
+ | 148 | enabled_func                  | 130         | 0.0080000000000382       | er "modules/controller.lua"]:357 | 
+ | 149 | is_number                     | 1950        | 0.0080000000000098       | main.lua:2597                    | 
+ | 150 | ?                             | 130         | 0.0080000000000098       | ctions/button_callbacks.lua:1956 | 
+ | 151 | select_music_track            | 130         | 0.0080000000000098       | S Cryptid "lib/content.lua"]:583 | 
+ | 152 | update                        | 260         | 0.0079999999999529       | DS _ "src/game_object.lua"]:3464 | 
+ | 153 | get_image_dims                | 2860        | 0.0070000000000334       | engine/sprite.lua:54             | 
+ | 154 | advanced_find_joker           | 130         | 0.007000000000005        | SMODS Cryptid "lib/misc.lua"]:21 | 
+ | 155 | find_joker                    | 130         | 0.007000000000005        | unctions/misc_functions.lua:1037 | 
+ | 156 | ?                             | 130         | 0.007000000000005        | ctions/button_callbacks.lua:1946 | 
+ | 157 | ?                             | 5           | 0.007000000000005        | main.lua:1043                    | 
+ | 158 | resolve_first_module_key      | 260         | 0.0069999999999766       | er "modules/controller.lua"]:581 | 
+ | 159 | move                          | 130         | 0.0069999999999766       | engine/particles.lua:100         | 
+ | 160 | update                        | 130         | 0.0069999999999482       | ooster_skip "modules/controls:49 | 
+ | 161 | func                          | 1690        | 0.0060000000000286       | SMODS _ "src/card_draw.lua"]:112 | 
+ | 162 | ?                             | 130         | 0.0060000000000286       | ctions/button_callbacks.lua:1936 | 
+ | 163 | func                          | 780         | 0.0060000000000002       | SMODS _ "src/card_draw.lua"]:194 | 
+ | 164 | ?                             | 1560        | 0.0059999999999718       | cardarea.lua:626                 | 
+ | 165 | set_offset                    | 260         | 0.0059999999999718       | engine/node.lua:204              | 
+ | 166 | update                        | 130         | 0.0050000000000239       | ck_preview "modules/controls/:12 | 
+ | 167 | get_is_hold                   | 130         | 0.0050000000000239       | eck_preview "modules/controls/:4 | 
+ | 168 | should_draw_shadow            | 1690        | 0.0049999999999955       | MODS _ "src/overrides.lua"]:1958 | 
+ | 169 | func                          | 780         | 0.0049999999999955       | SMODS _ "src/card_draw.lua"]:286 | 
+ | 170 | update_joker_display          | 303         | 0.0049999999999955       | "src/display_functions.lua"]:231 | 
+ | 171 | has_info                      | 2166        | 0.004999999999967        | S JokerDisplay "src/ui.lua"]:313 | 
+ | 172 | enabled                       | 130         | 0.004999999999967        | S Cryptid "lib/gameset.lua"]:873 | 
+ | 173 | accelerate_queue              | 130         | 0.0049999999999386       | ultiplier "modules/controls/s:23 | 
+ | 174 | get_queue_retriggers_count    | 130         | 0.0049999999999386       | multiplier "modules/controls/s:7 | 
+ | 175 | isInfinite                    | 3510        | 0.0040000000000191       | a/Roaming/Balatro/Mods/T..."]:80 | 
+ | 176 | isNaN                         | 3250        | 0.0040000000000191       | a/Roaming/Balatro/Mods/T..."]:76 | 
+ | 177 | timer_checkpoint              | 2470        | 0.0040000000000191       | functions/misc_functions.lua:65  | 
+ | 178 | get_module_override           | 1866        | 0.0040000000000191       | config "modules/config.lua"]:527 | 
+ | 179 | func                          | 1690        | 0.0040000000000191       | SMODS _ "src/card_draw.lua"]:490 | 
+ | 180 | init                          | 42          | 0.0040000000000191       | engine/moveable.lua:15           | 
+ | 181 | ?                             | 2340        | 0.0039999999999907       | "src/display_functions.lua"]:452 | 
+ | 182 | get_pos_pixel                 | 2080        | 0.0039999999999907       | engine/sprite.lua:45             | 
+ | 183 | gameset                       | 911         | 0.0039999999999907       | S Cryptid "lib/gameset.lua"]:545 | 
+ | 184 | enabled_func                  | 130         | 0.0039999999999907       | er "modules/controller.lua"]:315 | 
+ | 185 | UIBox                         | 42          | 0.0039999999999907       | engine/object.lua:33             | 
+ | 186 | get_center                    | 1300        | 0.0039999999999623       | S Cryptid "lib/gameset.lua"]:919 | 
+ | 187 | update                        | 130         | 0.0039999999999623       | engine/event.lua:173             | 
+ | 188 | is_brainstorm                 | 910         | 0.0030000000000143       | ng " Blueprint - core.main "]:61 | 
+ | 189 | ?                             | 780         | 0.0030000000000143       | "src/display_functions.lua"]:424 | 
+ | 190 | func                          | 780         | 0.0030000000000143       | SMODS _ "src/card_draw.lua"]:352 | 
+ | 191 | update_canvas_juice           | 130         | 0.0030000000000143       | functions/common_events.lua:1408 | 
+ | 192 | reset_drawhash                | 130         | 0.0030000000000143       | functions/misc_functions.lua:695 | 
+ | 193 | clear                         | 130         | 0.0030000000000143       | [SMODS _ "src/utils.lua"]:997    | 
+ | 194 | localize                      | 7           | 0.0030000000000143       | unctions/misc_functions.lua:1886 | 
+ | 195 | ?                             | 5           | 0.0030000000000143       | main.lua:1054                    | 
+ | 196 | generate_UIBox_ability_table  | 1           | 0.0030000000000143       | [SMODS _ "src/loader.lua"]:592   | 
+ | 197 | generate_ui                   | 1           | 0.0030000000000143       | DS _ "src/game_object.lua"]:1112 | 
+ | 198 | gcui                          | 1           | 0.0030000000000143       | functions/common_events.lua:2852 | 
+ | 199 | erate_UIBox_ability_table_ref | 1           | 0.0030000000000143       | S Cryptid "items/misc.lua"]:1730 | 
+ | 200 | func                          | 1690        | 0.0029999999999859       | [SMODS Cryptid "lib/ui.lua"]:236 | 
+ | 201 | should_draw_base_shader       | 1560        | 0.0029999999999859       | MODS _ "src/overrides.lua"]:1954 | 
+ | 202 | ?                             | 780         | 0.0029999999999859       | "src/display_functions.lua"]:437 | 
+ | 203 | handle                        | 130         | 0.0029999999999859       | engine/event.lua:50              | 
+ | 204 | cull_registry                 | 130         | 0.0029999999999859       | engine/controller.lua:433        | 
+ | 205 | func                          | 130         | 0.0029999999999859       | game.lua:2427                    | 
+ | 206 | set_alignment                 | 125         | 0.0029999999999859       | engine/moveable.lua:97           | 
+ | 207 | can_execute                   | 5           | 0.0029999999999859       | ultiplier "modules/controls/s:69 | 
+ | 208 | use                           | 5           | 0.0029999999999859       | ltiplier "modules/controls/s:146 | 
+ | 209 | func                          | 1690        | 0.0020000000000095       | SMODS _ "src/card_draw.lua"]:103 | 
+ | 210 | func                          | 1690        | 0.0020000000000095       | [SMODS _ "src/card_draw.lua"]:71 | 
+ | 211 | func                          | 780         | 0.0020000000000095       | SMODS _ "src/card_draw.lua"]:336 | 
+ | 212 | copy_table                    | 588         | 0.0020000000000095       | unctions/misc_functions.lua:1138 | 
+ | 213 | hard_set_T                    | 524         | 0.0020000000000095       | engine/moveable.lua:190          | 
+ | 214 | handle_flames_volume          | 520         | 0.0020000000000095       | ancer - cartomancer.flames "]:29 | 
+ | 215 | is_module_key_down            | 155         | 0.0020000000000095       | er "modules/controller.lua"]:592 | 
+ | 216 | set_HID_flags                 | 153         | 0.0020000000000095       | engine/controller.lua:138        | 
+ | 217 | set_cursor_hover              | 130         | 0.0020000000000095       | engine/controller.lua:1107       | 
+ | 218 | set_alerts                    | 130         | 0.0020000000000095       | [SMODS _ "src/ui.lua"]:420       | 
+ | 219 | get_is_hold                   | 130         | 0.0020000000000095       | _hold "modules/controls/scori:15 | 
+ | 220 | update                        | 130         | 0.0020000000000095       | _hold "modules/controls/scori:25 | 
+ | 221 | can_execute                   | 130         | 0.0020000000000095       | st_yet_interaction "modules/co:6 | 
+ | 222 | update                        | 130         | 0.0020000000000095       | ash_out "modules/controls/ins:34 | 
+ | 223 | align_h_popup                 | 124         | 0.0020000000000095       | dSleeves "CardSleeves.lua"]:2117 | 
+ | 224 | remove                        | 46          | 0.0020000000000095       | engine/moveable.lua:507          | 
+ | 225 | remove                        | 38          | 0.0020000000000095       | engine/ui.lua:1020               | 
+ | 226 | get_action                    | 10          | 0.0020000000000095       | s_switch "modules/controls/pre:2 | 
+ | 227 | stop_hover                    | 7           | 0.0020000000000095       | engine/node.lua:284              | 
+ | 228 | ?                             | 5           | 0.0020000000000095       | unctions/misc_functions.lua:1865 | 
+ | 229 | use                           | 5           | 0.0020000000000095       | keybinds "modules/controls/r:232 | 
+ | 230 | remove                        | 4           | 0.0020000000000095       | engine/ui.lua:276                | 
+ | 231 | init                          | 3           | 0.0020000000000095       | engine/text.lua:7                | 
+ | 232 | handleLogAdvanced             | 2           | 0.0020000000000095       | ogger "debugplus/logger.lua"]:39 | 
+ | 233 | stop_hover                    | 1           | 0.0020000000000095       | [SMODS galdur "galdur.lua"]:46   | 
+ | 234 | card_stop_hover               | 1           | 0.0020000000000095       | card.lua:4934                    | 
+ | 235 | align_to_text                 | 909         | 0.0019999999999811       | DS JokerDisplay "src/ui.lua"]:97 | 
+ | 236 | func                          | 780         | 0.0019999999999811       | SMODS _ "src/card_draw.lua"]:245 | 
+ | 237 | ?                             | 780         | 0.0019999999999811       | "src/display_functions.lua"]:400 | 
+ | 238 | getValue                      | 767         | 0.0019999999999811       | nfig "debugplus/config.lua"]:273 | 
+ | 239 | set_cursor_position           | 130         | 0.0019999999999811       | engine/controller.lua:168        | 
+ | 240 | is_mod_active                 | 1182        | 0.0010000000000048       | config "modules/config.lua"]:521 | 
+ | 241 | func                          | 910         | 0.0010000000000048       | SMODS _ "src/card_draw.lua"]:440 | 
+ | 242 | is_blueprint                  | 910         | 0.0010000000000048       | ng " Blueprint - core.main "]:57 | 
+ | 243 | func                          | 780         | 0.0010000000000048       | SMODS _ "src/card_draw.lua"]:397 | 
+ | 244 | func                          | 780         | 0.0010000000000048       | SMODS _ "src/card_draw.lua"]:270 | 
+ | 245 | func                          | 780         | 0.0010000000000048       | [SMODS Cryptid "lib/ui.lua"]:118 | 
+ | 246 | func                          | 780         | 0.0010000000000048       | [SMODS blueprint "smods.lua"]:13 | 
+ | 247 | func                          | 780         | 0.0010000000000048       | SMODS _ "src/card_draw.lua"]:229 | 
+ | 248 | ?                             | 390         | 0.0010000000000048       | ctions/button_callbacks.lua:2914 | 
+ | 249 | init_setting_flames           | 260         | 0.0010000000000048       | ancer - cartomancer.flames "]:33 | 
+ | 250 | update_device_type            | 140         | 0.0010000000000048       | er "modules/controller.lua"]:213 | 
+ | 251 | find_brainstormed_joker       | 130         | 0.0010000000000048       | g " Blueprint - core.main "]:377 | 
+ | 252 | set_alerts_ref                | 130         | 0.0010000000000048       | functions/common_events.lua:813  | 
+ | 253 | select_music_track            | 130         | 0.0010000000000048       | S Cryptid "lib/content.lua"]:598 | 
+ | 254 | ?                             | 130         | 0.0010000000000048       | DS Cryptid "lib/ascended.lua"]:3 | 
+ | 255 | update                        | 130         | 0.0010000000000048       | engine/particles.lua:63          | 
+ | 256 | volfunc                       | 130         | 0.0010000000000048       | functions/misc_functions.lua:835 | 
+ | 257 | pollThreads                   | 130         | 0.0010000000000048       | libs/https/smods-https.lua"]:214 | 
+ | 258 | ?                             | 123         | 0.0010000000000048       | ctions/button_callbacks.lua:2182 | 
+ | 259 | is_module_key                 | 90          | 0.0010000000000048       | er "modules/controller.lua"]:635 | 
+ | 260 | remove                        | 46          | 0.0010000000000048       | engine/node.lua:321              | 
+ | 261 | process_key                   | 10          | 0.0010000000000048       | er "modules/controller.lua"]:729 | 
+ | 262 | update_state_panel            | 10          | 0.0010000000000048       | _switch "modules/controls/pre:67 | 
+ | 263 | use                           | 10          | 0.0010000000000048       | "modules/controls/misc.lua"]:138 | 
+ | 264 | update                        | 10          | 0.0010000000000048       | modules/ui/state_panel.lua"]:162 | 
+ | 265 | can_crash                     | 5           | 0.0010000000000048       | c "modules/controls/misc.lua"]:2 | 
+ | 266 | use                           | 5           | 0.0010000000000048       | _switch "modules/controls/pre:63 | 
+ | 267 | execute                       | 5           | 0.0010000000000048       | _switch "modules/controls/pre:54 | 
+ | 268 | can_execute                   | 5           | 0.0010000000000048       | highlight_entire_f_hand "modul:2 | 
+ | 269 | get_next_preset_index         | 5           | 0.0010000000000048       | _switch "modules/controls/pre:15 | 
+ | 270 | use                           | 5           | 0.0010000000000048       | ighlight_entire_f_hand "modul:24 | 
+ | 271 | can_select_blind              | 5           | 0.0010000000000048       | keybinds "modules/controls/r:149 | 
+ | 272 | can_open_run_info             | 5           | 0.0010000000000048       | keybinds "modules/controls/r:203 | 
+ | 273 | create_mod_badges             | 3           | 0.0010000000000048       | Cryptid "lib/overrides.lua"]:638 | 
+ | 274 | smcmb                         | 3           | 0.0010000000000048       | [SMODS _ "src/utils.lua"]:459    | 
+ | 275 | sendMessageToConsole          | 1           | 0.0010000000000048       | [SMODS _ "src/logging.lua"]:39   | 
+ | 276 | print                         | 1           | 0.0010000000000048       | gger "debugplus/logger.lua"]:144 | 
+ | 277 | handleLog                     | 1           | 0.0010000000000048       | gger "debugplus/logger.lua"]:123 | 
+ | 278 | log                           | 1           | 0.0010000000000048       | gger "debugplus/logger.lua"]:156 | 
+ | 279 | card_h_popup                  | 1           | 0.0010000000000048       | unctions/UI_definitions.lua:1148 | 
+ | 280 | is_gamepad                    | 520         | 0.00099999999997635      | er "modules/controller.lua"]:235 | 
+ | 281 | key_hold_update               | 147         | 0.00099999999997635      | engine/controller.lua:976        | 
+ | 282 | volfunc                       | 130         | 0.00099999999997635      | functions/misc_functions.lua:833 | 
+ | 283 | align                         | 130         | 0.00099999999997635      | blind.lua:761                    | 
+ | 284 | can_execute                   | 130         | 0.00099999999997635      | booster_skip "modules/controls:7 | 
+ | 285 | process_registry              | 130         | 0.00099999999997635      | engine/controller.lua:457        | 
+ | 286 | select_music_track            | 130         | 0.00099999999997635      | S Cryptid "lib/content.lua"]:549 | 
+ | 287 | update                        | 130         | 0.00099999999997635      | n_skip "modules/controls/ani:334 | 
+ | 288 | set_parent_child              | 36          | 0.00099999999997635      | engine/ui.lua:245                | 
+ | 289 | get_obj                       | 910         | 0                        | rdSleeves "CardSleeves.lua"]:140 | 
+ | 290 | ?                             | 780         | 0                        | "src/display_functions.lua"]:413 | 
+ | 291 | get_pos_pixel                 | 780         | 0                        | engine/animatedsprite.lua:53     | 
+ | 292 | is_in_multiplayer             | 286         | 0                        | main.lua:1408                    | 
+ | 293 | is                            | 283         | 0                        | engine/object.lua:22             | 
+ | 294 | ?                             | 260         | 0                        | ctions/button_callbacks.lua:3001 | 
+ | 295 | get_device_type               | 140         | 0                        | er "modules/controller.lua"]:196 | 
+ | 296 | select_music_track            | 130         | 0                        | S Cryptid "lib/content.lua"]:628 | 
+ | 297 | update_blind_select           | 130         | 0                        | game.lua:3543                    | 
+ | 298 | can_execute                   | 130         | 0                        | cash_out "modules/controls/ins:7 | 
+ | 299 | add_visibility_controls       | 130         | 0                        | ancer - cartomancer.jokers "]:91 | 
+ | 300 | state_func                    | 130         | 0                        | _hold "modules/controls/scori:39 | 
+ | 301 | select_music_track            | 130         | 0                        | S Cryptid "lib/content.lua"]:613 | 
+ | 302 | update                        | 130         | 0                        | dy/ui "modules/ui/index.lua"]:38 | 
+ | 303 | display                       | 130         | 0                        | modules/ui/state_panel.lua"]:191 | 
+ | 304 | volfunc                       | 130         | 0                        | functions/misc_functions.lua:834 | 
+ | 305 | draw                          | 130         | 0                        | blind.lua:486                    | 
+ | 306 | update_axis                   | 130         | 0                        | r "modules/controller.lua"]:1054 | 
+ | 307 | is_present                    | 130         | 0                        | st_yet_interaction "modules/co:2 | 
+ | 308 | update_focus                  | 130         | 0                        | engine/controller.lua:1236       | 
+ | 309 | ?                             | 130         | 0                        | nctions/button_callbacks.lua:173 | 
+ | 310 | ?                             | 130         | 0                        | ctions/button_callbacks.lua:2070 | 
+ | 311 | ?                             | 130         | 0                        | nctions/button_callbacks.lua:127 | 
+ | 312 | update                        | 130         | 0                        | ighlight "modules/controls/in:49 | 
+ | 313 | remove_nils                   | 130         | 0                        | functions/misc_functions.lua:193 | 
+ | 314 | get_formatted_time            | 130         | 0                        | temclock.core "src/core.lua"]:93 | 
+ | 315 | poll                          | 130         | 0                        | [love "wrap_Event.lua"]:25       | 
+ | 316 | controller_update_axis_ref    | 130         | 0                        | engine/controller.lua:579        | 
+ | 317 | volfunc                       | 130         | 0                        | functions/misc_functions.lua:832 | 
+ | 318 | old_Card_align_h_popup        | 124         | 0                        | MODS _ "src/overrides.lua"]:2335 | 
+ | 319 | force_popup                   | 124         | 0                        | [SMODS Cryptid "lib/ui.lua"]:264 | 
+ | 320 | remove_all                    | 78          | 0                        | functions/misc_functions.lua:146 | 
+ | 321 | init                          | 42          | 0                        | engine/node.lua:13               | 
+ | 322 | init                          | 36          | 0                        | engine/ui.lua:356                | 
+ | 323 | is_keybind_pressed            | 30          | 0                        | ncer - cartomancer.keybinds "]:7 | 
+ | 324 | ?                             | 13          | 0                        | main.lua:1094                    | 
+ | 325 | ref                           | 11          | 0                        | engine/controller.lua:933        | 
+ | 326 | update_state_panel            | 10          | 0                        | tions "modules/controls/inst:302 | 
+ | 327 | toggle_queue                  | 10          | 0                        | s_actions "modules/controls/:211 | 
+ | 328 | prevent_if_debugplus          | 10          | 0                        | er "modules/controller.lua"]:697 | 
+ | 329 | update_state_panel            | 10          | 0                        | s_actions "modules/controls/:221 | 
+ | 330 | is_trigger_on_release         | 10          | 0                        | er "modules/controller.lua"]:678 | 
+ | 331 | get_debugplus_module          | 10          | 0                        | er "modules/controller.lua"]:166 | 
+ | 332 | is_stop_use                   | 10          | 0                        | main.lua:1404                    | 
+ | 333 | is_triggered                  | 10          | 0                        | er "modules/controller.lua"]:681 | 
+ | 334 | use                           | 10          | 0                        | s_actions "modules/controls/:173 | 
+ | 335 | is_debugplus_triggered        | 10          | 0                        | er "modules/controller.lua"]:687 | 
+ | 336 | loc_colour_ref                | 7           | 0                        | unctions/misc_functions.lua:1671 | 
+ | 337 | loc_colour                    | 7           | 0                        | dy/ui "modules/ui/index.lua"]:60 | 
+ | 338 | is_dangerous_actions_active   | 7           | 0                        | config "modules/config.lua"]:524 | 
+ | 339 | use                           | 6           | 0                        | ighlight "modules/controls/in:37 | 
+ | 340 | can_execute                   | 6           | 0                        | highlight "modules/controls/in:4 | 
+ | 341 | on_press                      | 5           | 0                        | engine/controller.lua:1057       | 
+ | 342 | key_press_update_ref          | 5           | 0                        | engine/controller.lua:772        | 
+ | 343 | can_view_deck                 | 5           | 0                        | keybinds "modules/controls/r:222 | 
+ | 344 | process_bind                  | 5           | 0                        | er "modules/controller.lua"]:510 | 
+ | 345 | can_execute                   | 5           | 0                        | _switch "modules/controls/pre:51 | 
+ | 346 | can_open_mod_settings         | 5           | 0                        |  "modules/controls/misc.lua"]:15 | 
+ | 347 | check_keybinds_activation     | 5           | 0                        | cer - cartomancer.keybinds "]:19 | 
+ | 348 | key_release                   | 5           | 0                        | er - cartomancer.keybinds "]:113 | 
+ | 349 | key_press_update              | 5           | 0                        | MODS Cryptid "lib/misc.lua"]:755 | 
+ | 350 | can_reroll_boss               | 5           | 0                        | keybinds "modules/controls/r:186 | 
+ | 351 | can_execute                   | 5           | 0                        | on_skip "modules/controls/ani:82 | 
+ | 352 | on_release                    | 5           | 0                        | engine/controller.lua:1062       | 
+ | 353 | is_present                    | 5           | 0                        | _interaction "modules/controls:2 | 
+ | 354 | key_release_update            | 5           | 0                        | engine/controller.lua:1028       | 
+ | 355 | cen_execute                   | 5           | 0                        | ghlight "modules/controls/mov:33 | 
+ | 356 | isOkayToHandleDebugForKey     | 5           | 0                        | s.core "debugplus/core.lua"]:463 | 
+ | 357 | l_Controller_key_press_update | 5           | 0                        | main.lua:1661                    | 
+ | 358 | key_press                     | 5           | 0                        | cer - cartomancer.keybinds "]:88 | 
+ | 359 | check_keybinds_deactivation   | 5           | 0                        | cer - cartomancer.keybinds "]:29 | 
+ | 360 | use                           | 5           | 0                        | t_hand "modules/controls/dese:25 | 
+ | 361 | use                           | 5           | 0                        | n_skip "modules/controls/ani:160 | 
+ | 362 | use_on_hovered                | 5           | 0                        | ighlight "modules/controls/in:41 | 
+ | 363 | use                           | 5           | 0                        | nteraction "modules/controls:130 | 
+ | 364 | ckpu                          | 5           | 0                        | r_cards "PreorderCards.lua"]:140 | 
+ | 365 | can_execute                   | 5           | 0                        | ct_hand "modules/controls/dese:6 | 
+ | 366 | can_restart_run               | 5           | 0                        | "modules/controls/misc.lua"]:118 | 
+ | 367 | isCtrlDown                    | 5           | 0                        | us.util "debugplus/util.lua"]:61 | 
+ | 368 | consoleHandleKey              | 5           | 0                        | ole "debugplus/console.lua"]:460 | 
+ | 369 | can_save_run                  | 5           | 0                        |  "modules/controls/misc.lua"]:24 | 
+ | 370 | use                           | 5           | 0                        | ghlight "modules/controls/mov:87 | 
+ | 371 | use_alt                       | 5           | 0                        | tions "modules/controls/inst:291 | 
+ | 372 | can_skip_blind                | 5           | 0                        | keybinds "modules/controls/r:167 | 
+ | 373 | can_execute                   | 5           | 0                        | interaction "modules/controls:19 | 
+ | 374 | handleLogsChange              | 4           | 0                        | ole "debugplus/console.lua"]:745 | 
+ | 375 | ref                           | 3           | 0                        | us.core "debugplus/core.lua"]:61 | 
+ | 376 | stop_hover                    | 3           | 0                        | engine/ui.lua:1050               | 
+ | 377 | hover                         | 3           | 0                        | engine/ui.lua:1034               | 
+ | 378 | pack                          | 2           | 0                        | us.util "debugplus/util.lua"]:70 | 
+ | 379 | update_member_count           | 2           | 0                        | MODS Cryptid "lib/https.lua"]:16 | 
+ | 380 | ?                             | 2           | 0                        | [love "callbacks.lua"]:94        | 
+ | 381 | lighten                       | 1           | 0                        | functions/misc_functions.lua:969 | 
+ | 382 | process_card_hover            | 1           | 0                        | er "modules/controller.lua"]:963 | 
+ | 383 | name_from_rows                | 1           | 0                        | unctions/UI_definitions.lua:1143 | 
+ | 384 | get_buffered_value            | 1           | 0                        | on_skip "modules/controls/ani:18 | 
+ | 385 | handleKeys                    | 1           | 0                        | engine/controller.lua:933        | 
+ | 386 | asyncRequest                  | 1           | 0                        | libs/https/smods-https.lua"]:260 | 
+ | 387 | loc_vars                      | 1           | 0                        | ODS SodaShop "SodaShop.lua"]:325 | 
+ | 388 | ?                             | 1           | 0                        | unctions/misc_functions.lua:1969 | 
+ | 389 | checkAndHandleInput           | 1           | 0                        | "libs/https/smods-https.lua"]:75 | 
+ | 390 | create_badge                  | 1           | 0                        | unctions/UI_definitions.lua:1331 | 
+ | 391 | play_sound                    | 1           | 0                        | functions/misc_functions.lua:767 | 
+ | 392 | should_skip_animation         | 1           | 0                        | on_skip "modules/controls/ani:28 | 
+ | 393 | can_dangerous                 | 1           | 0                        | on_skip "modules/controls/ani:76 | 
+ | 394 | get_rarity_badge              | 1           | 0                        | ODS _ "src/game_object.lua"]:821 | 
+ | 395 | cju                           | 1           | 0                        | card.lua:4942                    | 
+ | 396 | desc_from_rows                | 1           | 0                        | unctions/UI_definitions.lua:1103 | 
+ | 397 | pluralize                     | 1           | 0                        | MODS Cryptid "lib/misc.lua"]:179 | 
+ | 398 | gtc                           | 1           | 0                        | functions/common_events.lua:2840 | 
+ | 399 | cb                            | 1           | 0                        | MODS Cryptid "lib/https.lua"]:11 | 
+ | 400 | can_execute                   | 1           | 0                        | us_actions "modules/controls/:81 | 
+ | 401 | adjust_alpha                  | 1           | 0                        | unctions/misc_functions.lua:1001 | 
+ | 402 | toggleProfiler                | 1           | 0                        | s.core "debugplus/core.lua"]:420 | 
+ | 403 | get_type_colour               | 1           | 0                        | S Cryptid "lib/gameset.lua"]:817 | 
+ | 404 | juice_up                      | 1           | 0                        | main.lua:2645                    | 
+ | 405 | getContent                    | 1           | 0                        | libs/https/smods-https.lua"]:239 | 
+ | 406 | use_hover                     | 1           | 0                        | s_actions "modules/controls/:170 | 
+ | 407 | ?                             | 1           | 0                        | ole "debugplus/console.lua"]:528 | 
+ | 408 | juice_up                      | 1           | 0                        | engine/moveable.lua:250          | 
+ +-----+-------------------------------+-------------+--------------------------+----------------------------------+ 
+ 
+INFO - [G] [DebugPlus] Performance profiler stopped 
+INFO - [♥] Applied 0 patches to '=[SMODS _ "smods-https-thread.lua"]'
+INFO - [G] 2025-08-20 23:15:49 :: DEBUG :: SMODS.https(4) :: Using https module backend 
+INFO - [♥] Applied 0 patches to '=[SMODS _ "smods-https-thread.lua"]'
+INFO - [G] 2025-08-20 23:16:50 :: DEBUG :: SMODS.https(5) :: Using https module backend 

@@ -1,0 +1,72 @@
+[manifest]
+version = "1.0.0"
+dump_lua = true
+priority = 1
+
+[[patches]]
+[patches.pattern]
+target = "cardarea.lua"
+pattern = '''if (self == G.hand or self == G.deck or self == G.discard or self == G.play) and G.view_deck and G.view_deck[1] and G.view_deck[1].cards then return end'''
+position = "after"
+payload = '''self.cards = self.cards or {}'''
+match_indent = true
+
+[[patches]]
+[patches.pattern]
+target = "cardarea.lua"
+pattern = '''if self.children.view_deck then'''
+position = "before"
+payload = '''if not self.children or not self.children.view_deck then return end'''
+match_indent = true
+
+[[patches]]
+[patches.pattern]
+target = '=[SMODS _ "src/utils.lua"]'
+pattern = 'if G.GAME.blind then t[#t+1] = { object = G.GAME.blind, scored_card = G.GAME.blind.children.animatedSprite } end'
+position = "at"
+payload = 'if G.GAME.blind then t[#t+1] = { object = G.GAME.blind, scored_card = ((G.GAME.blind or {}).children or {}).animatedSprite or nil } end'
+match_indent = true
+
+[[patches]]
+[patches.pattern]
+target = '=[SMODS _ "src/utils.lua"]'
+pattern = 'local eff, triggered = individual.object:calculate(context)'
+position = "before"
+payload = 'if not individual or not individual.object then return ret, post_trig end'
+match_indent = true
+
+[[patches]]
+[patches.pattern]
+target = '=[SMODS _ "src/utils.lua"]'
+pattern = 'if not individual or not individual.object then return ret, post_trig end'
+position = "at"
+payload = 'if not individual or not individual.object or not individual.object.calculate or type(individual.object.calculate) ~= "function" then return ret, post_trig end'
+match_indent = true
+
+[[patches]]
+[patches.regex]
+target = '=[SMODS _ "src/utils.lua"]'
+pattern = '\(area\.cards\)'
+position = 'at'
+payload = "(area.cards or {})"
+overwrite = true
+match_indent = false
+
+[[patches]]
+[patches.regex]
+target = '=[SMODS _ "src/utils.lua"]'
+pattern = 'G.deck.cards'
+position = 'at'
+payload = "((G.deck or {}).cards or {})"
+overwrite = true
+match_indent = false
+
+# Solving conflicts with Reverie.
+[[patches]]
+[patches.regex]
+target = '=[SMODS Reverie "data/main.lua"]'
+pattern = 'G\.cine_quests\.cards'
+position = 'at'
+payload = "((G.cine_quests or {}).cards or {})"
+overwrite = true
+match_indent = false

@@ -1,0 +1,105 @@
+INFO - [♥] Lovely 0.7.1
+INFO - [♥] Game directory is at "C:\\Users\\easto\\Downloads\\Balatro.v1.0.1o\\Balatro.v1.0.1o\\game"
+INFO - [♥] Writing logs to "C:\\Users\\easto\\AppData\\Roaming\\Balatro\\Mods\\lovely\\log"
+INFO - [♥] Using mod directory at "C:\\Users\\easto\\AppData\\Roaming\\Balatro\\Mods"
+INFO - [♥] Cleaning up dumps directory at "C:\\Users\\easto\\AppData\\Roaming\\Balatro\\Mods\\lovely\\dump"
+INFO - [♥] Initialization complete in 155ms
+WARN - [♥] Pattern 'modded and {' on target 'main.lua' for pattern patch from Cartomancer\lovely\stackable-deck-steamodded-0.9.8.toml resulted in no matches
+INFO - [♥] Applied 24 patches to 'main.lua'
+INFO - [♥] Applied 8 patches to 'engine/controller.lua'
+INFO - [♥] Applied 15 patches to 'back.lua'
+INFO - [♥] Applied 7 patches to 'tag.lua'
+INFO - [♥] Applied 1 patch to 'engine/moveable.lua'
+INFO - [♥] Applied 2 patches to 'engine/sprite.lua'
+INFO - [♥] Applied 2 patches to 'engine/animatedsprite.lua'
+INFO - [♥] Applied 48 patches to 'functions/misc_functions.lua'
+INFO - [♥] Applied 40 patches to 'game.lua'
+INFO - [♥] Applied 1 patch to 'globals.lua'
+WARN - [♥] Pattern 'self.config.chosen = true' on target 'engine/ui.lua' for pattern patch from Cartomancer\lovely\vanilla-ui.toml resulted in no matches
+INFO - [♥] Applied 4 patches to 'engine/ui.lua'
+WARN - [♥] Pattern 'create_option_cycle({label = localize(\'b_set_gamespeed\'),scale = 0.8, options = {0.5, 1, 2, 4}, opt_callback = \'change_gamespeed\', current_option = (G.SETTINGS.GAMESPEED == 0.5 and 1 or G.SETTINGS.GAMESPEED == 4 and 4 or G.SETTINGS.GAMESPEED + 1)}),' on target 'functions/UI_definitions.lua' for pattern patch from Saturn\lovely\core.toml resulted in no matches
+INFO - [♥] Applied 93 patches to 'functions/UI_definitions.lua'
+WARN - [♥] Pattern 'if effects[ii].card then' on target 'functions/state_events.lua' for pattern patch from Saturn\lovely\rem_anim.toml resulted in no matches
+INFO - [♥] Applied 44 patches to 'functions/state_events.lua'
+WARN - [♥] Pattern 'func = (function() if eval_func(card) then if not first or first then card:juice_up(0.1, 0.1) end;juice_card_until(card, eval_func, nil, 0.8) end return true end)' on target 'functions/common_events.lua' for pattern patch from Saturn\lovely\rem_anim.toml resulted in no matches
+WARN - [♥] Pattern 'local stay_flipped = G.GAME and G.GAME.blind and G.GAME.blind:stay_flipped(to, card)' on target 'functions/common_events.lua' for pattern patch from Cartomancer\lovely\limit-deck-size.toml resulted in no matches
+INFO - [♥] Applied 108 patches to 'functions/common_events.lua'
+INFO - [♥] Applied 48 patches to 'functions/button_callbacks.lua'
+WARN - [♥] Pattern 'if G.GAME.blind and G.GAME.blind.in_blind then G.E_MANAGER:add_event(Event({ func = function() G.GAME.blind:set_blind(nil, true, nil); return true end })) end' on target 'card.lua' for pattern patch from Steamodded\lovely\calculate_card_added.toml resulted in 2 matches, wanted 1
+WARN - [♥] Ignoring excess matches
+WARN - [♥] Pattern 'if G.GAME.blind then G.E_MANAGER:add_event(Event({ func = function() G.GAME.blind:set_blind(nil, true, nil); return true end })) end' on target 'card.lua' for pattern patch from Saturn\lovely\rem_anim.toml resulted in no matches
+WARN - [♥] Pattern 'Xmult_mod = G.P_CENTERS.v_observatory.config.extra' on target 'card.lua' for pattern patch from Saturn\lovely\stack.toml resulted in no matches
+INFO - [♥] Applied 157 patches to 'card.lua'
+WARN - [♥] Pattern 'local stay_flipped = G.GAME and G.GAME.blind and G.GAME.blind:stay_flipped(self, card)' on target 'cardarea.lua' for pattern patch from Cartomancer\lovely\limit-deck-size.toml resulted in no matches
+INFO - [♥] Applied 13 patches to 'cardarea.lua'
+INFO - [♥] Applied 36 patches to 'blind.lua'
+INFO - [♥] Applied 2 patches to 'engine/text.lua'
+INFO - [♥] Applied 4 patches to '=[SMODS _ "src/overrides.lua"]'
+INFO - [G] Failed to connect to the debug server
+INFO - [G] 2025-03-23 18:58:18 :: DEBUG :: DebugConsole :: Steamodded Debug Socket started !
+INFO - [G] [Blueprint] Starting to load config
+INFO - [G] [Blueprint] Reading config file: 
+INFO - [G] [Blueprint] return { 
+  ["INTERNAL_debug"] = false,
+  ["hello"] = true,
+}
+INFO - [♥] Applied 9 patches to 'engine/sound_manager.lua'
+INFO - [♥] Applied 1 patch to 'engine/save_manager.lua'
+INFO - [G] Loaded all Blueprint mod shaders successfully
+INFO - [G] line not found
+INFO - [G] file not found: main.lua: No such file or directory
+INFO - [G] file not found: main.lua: No such file or directory
+INFO - [G] file not found: main.lua: No such file or directory
+INFO - [G] 2025-03-23 18:58:23 :: ERROR :: StackTrace :: Oops! The game crashed
+main.lua:1338: bad argument #1 to 'load' (function expected, got nil)
+Stack Traceback
+===============
+(1) Lua local 'handler' at file 'main.lua:612'
+	Local variables:
+	 msg = string: "main.lua:1338: bad argument #1 to 'load' (function expected, got nil)"
+	 (*temporary) = Lua function '?' (defined at line 31 of chunk [SMODS _ "src/logging.lua"])
+	 (*temporary) = string: "Oops! The game crashed\
+"
+(2) LÖVE function at file 'boot.lua:352' (best guess)
+	Local variables:
+	 errhand = Lua function '?' (defined at line 598 of chunk main.lua)
+	 handler = Lua function '?' (defined at line 598 of chunk main.lua)
+(3) global C function 'load'
+(4) Lua global 'initBrainstorm' at file 'main.lua:1338'
+	Local variables:
+	 lovely = table: 0x044f7df8  {repo:https://github.com/ethangreen-dev/lovely-injector, version:0.7.1, mod_dir:C:/Users/easto/AppData/Roaming/Balatro/Mods}
+	 nativefs = table: 0x048839f0  {unmount:function: 0x04883b90, newFile:function: 0x04883a98, write:function: 0x04883bf0, mount:function: 0x04883b50, getWorkingDirectory:function: 0x04883c98 (more...)}
+	 (*temporary) = C function: assert
+(5) Lua upvalue 'start_up_ref' at file 'game.lua:160'
+	Local variables:
+	 self = table: 0x046132c8  {F_GUIDE:false, F_CRASH_REPORTS:false, F_HIDE_BG:false, COLLABS:table: 0x04613358, F_QUIT_BUTTON:true, F_ENGLISH_ONLY:false, F_SKIP_TUTORIAL:false (more...)}
+	 settings = string: "return {[\"version\"]=\"1.0.1o-FULL\",[\"paused\"]=false,[\"QUEUED_CHANGE\"]={},[\"COMP\"]={[\"prev_name\"]=\"\",[\"name\"]=\"\",[\"score\"]=14952,},[\"colourblind_option\"]=true,[\"play_button_pos\"]=2,[\"CUSTOM_DECK\"]={[\"Collabs\"]={[\"Spades\"]=\"default_Spades\",[\"Hearts\"]=\"default_Hearts\",[\"Diamonds\"]=\"default_Diamonds\",[\"Clubs\"]=\"default_Clubs\",},},[\"colour_palettes\"]={[\"Spades\"]=\"hc\",[\"Hearts\"]=\"hc\",[\"Diamonds\"]=\"hc\",[\"Clubs\"]=\"hc\",},[\"crashreports\"]=false,[\"tutorial_progress\"]={[\"hold_parts\"]={[\"first_hand_3\"]=true,[\"second_hand\"]=true,[\"big_blind\"]=true,[\"first_hand_4\"]=true,[\"small_blind\"]=true,[\"shop_1\"]=true,[\"first_hand_2\"]=true,[\"first_hand\"]=true,},[\"section\"]=\"second_hand\",[\"completed_parts\"]={[\"first_hand\"]=true,[\"first_hand_3\"]=true,[\"second_hand\"]=true,[\"big_blind\"]=true,[\"first_hand_4\"]=true,[\"small_blind\"]=true,[\"first_hand_section\"]=true,[\"first_hand_2\"]=true,[\"shop_1\"]=true,},},[\"language\"]=\"en-us\",[\"ambient_control\"]={[\"ambientOrgan1\"]={[\"per\"]=0.7,[\"vol\"]=0,},[\"ambientFire3\"]={[\"per\"]=1,[\"vol\"]=0,},[\"ambientFire2\"]={[\"per\"]=1.05,[\"vol\"]=0,},[\"ambientFire1\"]={[\"per\"]=1.1,[\"vol\"]=0,},},[\"WINDOW\"]={[\"vsync\"]=1,[\"display_names\"]={[1]=\"1\",},[\"screenmode\"]=\"Fullscreen\",[\"DISPLAYS\"]={[1]={[\"screen_resolutions\"]={[\"strings\"]={[14]=\"320 X 240\",[2]=\"1440 X 900\",[5]=\"1280 X 800\",[12]=\"512 X 384\",[11]=\"640 X 400\",[4]=\"1360 X 768\",[10]=\"640 X 480\",[9]=\"800 X 600\",[8]=\"1024 X 768\",[13]=\"400 X 300\",[3]=\"1366 X 768\",[7]=\"1280 X 720\",[1]=\"1600 X 900\",[15]=\"320 X 200\",[6]=\"1280 X 768\",},[\"values\"]={[14]={[\"h\"]=240,[\"w\"]=320,},[2]={[\"h\"]=900,[\"w\"]=1440,},[5]={[\"h\"]=800,[\"w\"]=1280,},[12]={[\"h\"]=384,[\"w\"]=512,},[11]={[\"h\"]=400,[\"w\"]=640,},[4]={[\"h\"]=768,[\"w\"]=1360,},[10]={[\"h\"]=480,[\"w\"]=640,},[9]={[\"h\"]=600,[\"w\"]=800,},[8]={[\"h\"]=768,[\"w\"]=1024,},[13]={[\"h\"]=300,[\"w\"]=400,},[3]={[\"h\"]=768,[\"w\"]=1366,},[7]={[\"h\"]=720,[\"w\"]=1280,},[1]={[\"h\"]=900,[\"w\"]=1600,},[15]={[\"h\"]=200,[\"w\"]=320,},[6]={[\"h\"]=768,[\"w\"]=1280,},},},[\"screen_res\"]={[\"w\"]=1280,[\"h\"]=720,},[\"DPI_scale\"]=1,[\"MONITOR_DIMS\"]={[\"height\"]=900,[\"width\"]=1600,},},},[\"selected_display\"]=1,},[\"run_stake_stickers\"]=false,[\"GAMESPEED\"]=2,[\"SOUND\"]={[\"volume\"]=50,[\"music_volume\"]=100,[\"game_sounds_volume\"]=100,},[\"music_control\"]={[\"current_track\"]=\"\",[\"desired_track\"]=\"\",[\"lerp\"]=1,},[\"ACHIEVEMENTS_EARNED\"]={[\"ante_up\"]=true,[\"_10k\"]=true,},[\"screenshake\"]=50,[\"current_setup\"]=\"New Run\",[\"tutorial_complete\"]=true,[\"profile\"]=1,[\"DEMO\"]={[\"win_CTA_shown\"]=true,[\"quit_CTA_shown\"]=true,[\"timed_CTA_shown\"]=true,[\"total_uptime\"]=15.044668401966,},[\"GRAPHICS\"]={[\"shadows\"]=\"On\",[\"crt\"]=70,[\"texture_scaling\"]=2,[\"bloom\"]=2,},}"
+	 settings_ver = nil
+	 new_colour_proto = table: 0x0461bb50  {Spades:table: 0x0461bdb8, Hearts:table: 0x0461bc68, Diamonds:table: 0x0461bd20, Clubs:table: 0x0461be70}
+	 sound_files = table: 0x04a93868  {1:ambientFire1.ogg, 2:ambientFire2.ogg, 3:ambientFire3.ogg, 4:ambientOrgan1.ogg, 5:button.ogg, 6:cancel.ogg, 7:card1.ogg, 8:card3.ogg, 9:cardFan2.ogg (more...)}
+	 shader_files = table: 0x04a9c2d8  {1:CRT.fs, 2:background.fs, 3:booster.fs, 4:debuff.fs, 5:dissolve.fs, 6:flame.fs, 7:flash.fs, 8:foil.fs, 9:gold_seal.fs, 10:holo.fs, 11:hologram.fs (more...)}
+(6) Lua method 'start_up' at file 'main.lua:1486'
+	Local variables:
+	 self = table: 0x046132c8  {F_GUIDE:false, F_CRASH_REPORTS:false, F_HIDE_BG:false, COLLABS:table: 0x04613358, F_QUIT_BUTTON:true, F_ENGLISH_ONLY:false, F_SKIP_TUTORIAL:false (more...)}
+(7) Lua field 'load' at file 'main.lua:948'
+(8) Lua function '?' at file 'main.lua:895' (best guess)
+(9) global C function 'xpcall'
+(10) LÖVE function at file 'boot.lua:368' (best guess)
+	Local variables:
+	 result = boolean: true
+	 main = nil
+(11) global C function 'xpcall'
+(12) LÖVE function at file 'boot.lua:377' (best guess)
+	Local variables:
+	 func = Lua function '(LÖVE Function)' (defined at line 355 of chunk [love "boot.lua"])
+	 inerror = boolean: true
+	 deferErrhand = Lua function '(LÖVE Function)' (defined at line 348 of chunk [love "boot.lua"])
+	 earlyinit = Lua function '(LÖVE Function)' (defined at line 355 of chunk [love "boot.lua"])
+
+INFO - [G] file not found: main.lua: No such file or directory
+INFO - [G] 2025-03-23 18:58:23 :: INFO  :: StackTrace :: Additional Context:
+Balatro Version: 1.0.1o-FULL
+Modded Version: 1.0.0~BETA-0323b-STEAMODDED
+LÖVE Version: 11.5.0
+Lovely Version: 0.7.1
+Platform: Windows

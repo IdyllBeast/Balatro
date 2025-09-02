@@ -1,0 +1,1373 @@
+INFO - [♥] Lovely 0.7.1
+INFO - [♥] Game directory is at "C:\\Users\\easto\\Downloads\\Balatro.v1.0.1o\\Balatro.v1.0.1o\\game"
+INFO - [♥] Writing logs to "C:\\Users\\easto\\AppData\\Roaming\\Balatro\\Mods\\lovely\\log"
+INFO - [♥] Using mod directory at "C:\\Users\\easto\\AppData\\Roaming\\Balatro\\Mods"
+WARN - [♥] Unknown key `patches.21.?.match_indent` found in patch file at "C:\\Users\\easto\\AppData\\Roaming\\Balatro\\Mods\\Cryptid\\lovely\\code.toml", ignoring it
+WARN - [♥] Unknown key `patches.49.?.match_indent` found in patch file at "C:\\Users\\easto\\AppData\\Roaming\\Balatro\\Mods\\Talisman\\lovely.toml", ignoring it
+WARN - [♥] Unknown key `patches.52.?.match_indent` found in patch file at "C:\\Users\\easto\\AppData\\Roaming\\Balatro\\Mods\\Talisman\\lovely.toml", ignoring it
+INFO - [♥] Cleaning up dumps directory at "C:\\Users\\easto\\AppData\\Roaming\\Balatro\\Mods\\lovely\\dump"
+INFO - [♥] Initialization complete in 189ms
+WARN - [♥] Pattern 'G.ARGS.score_intensity.organ = G.video_organ or G.ARGS.score_intensity.required_score > 0 and math.max(math.min(0.4, 0.1*math.log(G.ARGS.score_intensity.earned_score/(G.ARGS.score_intensity.required_score+1), 5)),0.) or 0' on target 'main.lua' for pattern patch from Talisman\lovely.toml resulted in no matches
+WARN - [♥] Pattern 'if type(G.GAME.current_round.current_hand.chips) ~= \'number\' or type(G.GAME.current_round.current_hand.mult) ~= \'number\' then' on target 'main.lua' for pattern patch from Talisman\lovely.toml resulted in no matches
+INFO - [♥] Applied 20 patches to 'main.lua'
+INFO - [♥] Applied 2 patches to 'engine/string_packer.lua'
+INFO - [♥] Applied 7 patches to 'engine/controller.lua'
+INFO - [♥] Applied 15 patches to 'back.lua'
+INFO - [♥] Applied 18 patches to 'tag.lua'
+INFO - [♥] Applied 1 patch to 'engine/node.lua'
+INFO - [♥] Applied 2 patches to 'engine/moveable.lua'
+INFO - [♥] Applied 2 patches to 'engine/sprite.lua'
+INFO - [♥] Applied 2 patches to 'engine/animatedsprite.lua'
+WARN - [♥] Pattern 'assembled_string = assembled_string..(type(subpart) == \'string\' and subpart or args.vars[tonumber(subpart[1])] or \'ERROR\')' on target 'functions/misc_functions.lua' for pattern patch from Talisman\lovely.toml resulted in no matches
+INFO - [♥] Applied 57 patches to 'functions/misc_functions.lua'
+WARN - [♥] Pattern 'for i = 1, 2 do' on target 'game.lua' for pattern patch from Cryptid\lovely\stake.toml resulted in no matches
+WARN - [♥] Pattern 'create_shop_card_ui(card, \'Voucher\', G.shop_vouchers)' on target 'game.lua' for pattern patch from Cryptid\lovely\stake.toml resulted in no matches
+WARN - [♥] Pattern 'self.GAME.current_round.voucher = G.SETTINGS.tutorial_progress and G.SETTINGS.tutorial_progress.forced_voucher or SMODS.get_next_vouchers()' on target 'game.lua' for pattern patch from Cryptid\lovely\very_fair.toml resulted in no matches
+WARN - [♥] Pattern 'self.GAME.current_round.voucher = G.SETTINGS.tutorial_progress and G.SETTINGS.tutorial_progress.forced_voucher or get_next_voucher_key()' on target 'game.lua' for pattern patch from Cryptid\lovely\Voucher.toml resulted in no matches
+WARN - [♥] Regex 'card\\:start_materialize\\(\\)\\n\\s+G\\.shop_vouchers\\:emplace\\(card\\)\\n\\s+end' on target 'game.lua' for regex patch from Cryptid\lovely\Voucher.toml resulted in no matches
+INFO - [♥] Applied 89 patches to 'game.lua'
+INFO - [♥] Applied 1 patch to 'globals.lua'
+INFO - [♥] Applied 6 patches to 'engine/ui.lua'
+WARN - [♥] Pattern 'G.GAME.shop.joker_max*1.02*G.CARD_W,' on target 'functions/UI_definitions.lua' for pattern patch from Cryptid\lovely\equilibrium.toml resulted in no matches
+WARN - [♥] Pattern '{n=G.UIT.T, config={text = G.GAME.hands[handname].chips, scale = 0.45, colour = G.C.UI.TEXT_LIGHT}},' on target 'functions/UI_definitions.lua' for pattern patch from Talisman\lovely.toml resulted in no matches
+WARN - [♥] Pattern '{n=G.UIT.T, config={text = G.GAME.hands[handname].mult, scale = 0.45, colour = G.C.UI.TEXT_LIGHT}}' on target 'functions/UI_definitions.lua' for pattern patch from Talisman\lovely.toml resulted in no matches
+INFO - [♥] Applied 104 patches to 'functions/UI_definitions.lua'
+WARN - [♥] Pattern 'ease_to = G.GAME.chips + math.floor(hand_chips * mult) * (e and e.antiscore and -1 or 1),' on target 'functions/state_events.lua' for pattern patch from Cryptid\lovely\blind.toml resulted in no matches
+WARN - [♥] Pattern 'if reps[j] ~= 1 then' on target 'functions/state_events.lua' for pattern patch from Cryptid\lovely\misc.toml resulted in no matches
+WARN - [♥] Pattern 'for i=1, #G.jokers.cards + #G.consumeables.cards do' on target 'functions/state_events.lua' for pattern patch from Cryptid\lovely\misc.toml resulted in no matches
+WARN - [♥] Pattern 'local effects = {[1] = {playing_card = G.hand.cards[i]:get_end_of_round_effect()}}' on target 'functions/state_events.lua' for pattern patch from Cryptid\lovely\stake.toml resulted in no matches
+WARN - [♥] Pattern 'G.GAME.current_round.voucher = get_next_voucher_key()' on target 'functions/state_events.lua' for pattern patch from Cryptid\lovely\sticker.toml resulted in no matches
+WARN - [♥] Pattern 'G.GAME.current_round.voucher = get_next_voucher_key()' on target 'functions/state_events.lua' for pattern patch from Cryptid\lovely\Voucher.toml resulted in no matches
+WARN - [♥] Pattern 'if effects[ii].card then' on target 'functions/state_events.lua' for pattern patch from Talisman\lovely.toml resulted in no matches
+WARN - [♥] Pattern 'if effects.jokers.Xmult_mod then mult = mod_mult(mult*effects.jokers.Xmult_mod);extras.mult = true  end' on target 'functions/state_events.lua' for pattern patch from Talisman\lovely.toml resulted in no matches
+WARN - [♥] Pattern 'if effect.Xmult_mod then mult = mod_mult(mult*effect.Xmult_mod);extras.mult = true  end' on target 'functions/state_events.lua' for pattern patch from Talisman\lovely.toml resulted in no matches
+WARN - [♥] Pattern 'if effects[ii].message then' on target 'functions/state_events.lua' for pattern patch from Talisman\lovely.toml resulted in no matches
+WARN - [♥] Pattern '--calculate the card edition effects' on target 'functions/state_events.lua' for pattern patch from Talisman\lovely.toml resulted in no matches
+WARN - [♥] Pattern 'if effects[ii].edition.p_dollars_mod then' on target 'functions/state_events.lua' for pattern patch from Talisman\lovely.toml resulted in no matches
+WARN - [♥] Pattern 'if edition_effects.jokers.x_mult_mod then' on target 'functions/state_events.lua' for pattern patch from Talisman\lovely.toml resulted in no matches
+WARN - [♥] Pattern 'if SMODS.has_enhancement(scoring_hand[i], \'m_glass\') and not scoring_hand[i].debuff and pseudorandom(\'glass\') < G.GAME.probabilities.normal/(scoring_hand[i].ability.name == \'Glass Card\' and scoring_hand[i].ability.extra or G.P_CENTERS.m_glass.config.extra) then' on target 'functions/state_events.lua' for pattern patch from Cryptid\lovely\Probability.toml resulted in no matches
+WARN - [♥] Regex '(?<indent>[\\t ]*)if destroyed then \\n' on target 'functions/state_events.lua' for regex patch from Cryptid\lovely\seal.toml resulted in no matches
+INFO - [♥] Applied 79 patches to 'functions/state_events.lua'
+WARN - [♥] Pattern '{n=G.UIT.T, config={text = localize(\'$\')..config.dollars, scale = 1.2*scale, colour = G.C.WHITE, shadow = true, juice = true}}' on target 'functions/common_events.lua' for pattern patch from Cryptid\lovely\code.toml resulted in no matches
+WARN - [♥] Pattern 'G.shop_jokers.T.w = G.GAME.shop.joker_max*1.01*G.CARD_W' on target 'functions/common_events.lua' for pattern patch from Cryptid\lovely\equilibrium.toml resulted in no matches
+WARN - [♥] Pattern 'function generate_card_ui(_c, full_UI_table, specific_vars, card_type, badges, hide_desc, main_start, main_end)' on target 'functions/common_events.lua' for pattern patch from Cryptid\lovely\lib_misc.toml resulted in no matches
+WARN - [♥] Pattern 'elseif v.boss.showdown and (G.GAME.round_resets.ante)%G.GAME.win_ante == 0 and G.GAME.round_resets.ante >= 2 then' on target 'functions/common_events.lua' for pattern patch from Cryptid\lovely\stake.toml resulted in no matches
+WARN - [♥] Pattern 'if num_dollars > 60 then' on target 'functions/common_events.lua' for pattern patch from Talisman\lovely.toml resulted in no matches
+WARN - [♥] Pattern 'func = (function() if eval_func(card) then if not first or first then card:juice_up(0.1, 0.1) end;juice_card_until(card, eval_func, nil, 0.8) end return true end)' on target 'functions/common_events.lua' for pattern patch from Talisman\lovely.toml resulted in no matches
+INFO - [♥] Applied 177 patches to 'functions/common_events.lua'
+WARN - [♥] Pattern 'if ((G.GAME.dollars-G.GAME.bankrupt_at) - 10 >= 0) and' on target 'functions/button_callbacks.lua' for pattern patch from Talisman\lovely.toml resulted in no matches
+INFO - [♥] Applied 71 patches to 'functions/button_callbacks.lua'
+WARN - [♥] Pattern 'if G.GAME.blind and G.GAME.blind.in_blind then G.E_MANAGER:add_event(Event({ func = function() G.GAME.blind:set_blind(nil, true, nil); return true end })) end' on target 'card.lua' for pattern patch from Steamodded\lovely\calculate_card_added.toml resulted in 2 matches, wanted 1
+WARN - [♥] Ignoring excess matches
+WARN - [♥] Pattern 'if self.ability.name == \'Campfire\' and G.GAME.blind.boss and not (G.GAME.blind.config and G.GAME.blind.config.bonus) and self.ability.x_mult > 1 then' on target 'card.lua' for pattern patch from Cryptid\lovely\misc.toml resulted in no matches
+WARN - [♥] Pattern 'if self.ability.name:find(\'Arcana\') then' on target 'card.lua' for pattern patch from Cryptid\lovely\misprint.toml resulted in no matches
+WARN - [♥] Pattern 'if self.ability.name == \'The Hermit\' or self.ability.consumeable.hand_type or self.ability.name == \'Temperance\' or self.ability.name == \'Black Hole\' then' on target 'card.lua' for pattern patch from Cryptid\lovely\stake.toml resulted in no matches
+WARN - [♥] Pattern 'if self.ability.queue_negative_removal then' on target 'card.lua' for pattern patch from Cryptid\lovely\sticker.toml resulted in no matches
+WARN - [♥] Pattern 'G.GAME.current_round.voucher = nil' on target 'card.lua' for pattern patch from Cryptid\lovely\Voucher.toml resulted in no matches
+WARN - [♥] Pattern 'if G.GAME.blind then G.E_MANAGER:add_event(Event({ func = function() G.GAME.blind:set_blind(nil, true, nil); return true end })) end' on target 'card.lua' for pattern patch from Talisman\lovely.toml resulted in no matches
+WARN - [♥] Pattern 'x_mult = center.config.Xmult or 1,' on target 'card.lua' for pattern patch from Talisman\lovely.toml resulted in no matches
+WARN - [♥] Pattern 'elseif self.ability.name == \'Business Card\' then loc_vars = {\'\'..(G.GAME and G.GAME.probabilities.normal or 1), self.ability.extra}' on target 'card.lua' for pattern patch from Cryptid\lovely\Probability.toml resulted in no matches
+WARN - [♥] Pattern 'pseudorandom(\'business\') < G.GAME.probabilities.normal/self.ability.extra then' on target 'card.lua' for pattern patch from Cryptid\lovely\Probability.toml resulted in no matches
+INFO - [♥] Applied 252 patches to 'card.lua'
+INFO - [♥] Applied 18 patches to 'cardarea.lua'
+INFO - [♥] Applied 40 patches to 'blind.lua'
+INFO - [♥] Applied 2 patches to 'card_character.lua'
+INFO - [♥] Applied 5 patches to 'engine/text.lua'
+INFO - [♥] Applied 2 patches to '=[SMODS _ "src/utils.lua"]'
+INFO - [♥] Applied 4 patches to '=[SMODS _ "src/overrides.lua"]'
+INFO - [♥] Applied 1 patch to '=[SMODS _ "src/game_object.lua"]'
+INFO - [G] Failed to connect to the debug server
+INFO - [G] 2025-04-02 14:17:14 :: DEBUG :: DebugConsole :: Steamodded Debug Socket started !
+INFO - [G] [Blueprint] Starting to load config
+INFO - [G] [Blueprint] Reading config file: 
+INFO - [G] [Blueprint] return {
+	["INTERNAL_debug"] = false,
+	["hello"] = true,
+}
+INFO - [♥] Applied 9 patches to 'engine/sound_manager.lua'
+INFO - [♥] Applied 3 patches to 'engine/save_manager.lua'
+INFO - [♥] Applied 2 patches to 'engine/string_packer.lua'
+INFO - [G] Loaded all Blueprint mod shaders successfully
+INFO - [♥] Applied 4 patches to '=[SMODS _ "src/card_draw.lua"]'
+INFO - [G] 2025-04-02 14:17:19 :: TRACE :: Loader :: Processing Mod file (Legacy header): BetterMouseAndGamepad_v1.0.6c.lua
+INFO - [G] 2025-04-02 14:17:19 :: TRACE :: Loader :: Saving Mod Info: BetterMouseAndGamepad
+INFO - [G] 2025-04-02 14:17:19 :: TRACE :: Loader :: Processing Mod file (Legacy header): BetterMouseAndGamepad_v1.0.5d.lua
+INFO - [G] 2025-04-02 14:17:19 :: WARN  :: Loader :: Duplicate Mod ID: BetterMouseAndGamepad
+INFO - [G] 2025-04-02 14:17:19 :: WARN  :: Loader :: Duplicate Mod prefix bmag_k used by BetterMouseAndGamepad, BetterMouseAndGamepad
+INFO - [G] 2025-04-02 14:17:19 :: TRACE :: Loader :: Processing Mod file (Legacy header): mod.lua
+INFO - [G] 2025-04-02 14:17:19 :: TRACE :: Loader :: Saving Mod Info: blueprint
+INFO - [G] 2025-04-02 14:17:19 :: INFO  :: DefaultLogger :: Valid JSON file found
+INFO - [G] 2025-04-02 14:17:19 :: INFO  :: DefaultLogger :: Valid JSON file found
+INFO - [G] 2025-04-02 14:17:19 :: TRACE :: Loader :: Processing Mod file (Legacy header): PreorderCards.lua
+INFO - [G] 2025-04-02 14:17:19 :: TRACE :: Loader :: Saving Mod Info: preorder_cards
+INFO - [G] 2025-04-02 14:17:19 :: TRACE :: Loader :: Processing Mod file (Legacy header): steamodded_metadata.lua
+INFO - [G] 2025-04-02 14:17:19 :: TRACE :: Loader :: Saving Mod Info: Talisman
+INFO - [G] 2025-04-02 14:17:19 :: TRACE :: Loader :: Mod extracredit was unable to load: Missing Dependencies: 1: Steamodded (>=1.0.0~ALPHA-1423g) (<=1.0.0~BETA-0312b)
+
+
+INFO - [G] [CRYPTID] Loading library file ascended.lua
+INFO - [G] [CRYPTID] Loading library file calculate.lua
+INFO - [G] [CRYPTID] Loading library file content.lua
+INFO - [G] [CRYPTID] Loading library file cross-mod.lua
+INFO - [G] [CRYPTID] Loading library file d20.lua
+INFO - [G] [CRYPTID] Loading library file event.lua
+INFO - [G] [CRYPTID] Loading library file gameset.lua
+INFO - [G] [CRYPTID] Loading library file https.lua
+INFO - [G] 2025-04-02 14:17:20 :: DEBUG :: SMODS.https :: Using https module backend
+INFO - [G] [CRYPTID] Loading library file misc.lua
+INFO - [G] [CRYPTID] Loading library file misprintize.lua
+INFO - [G] [CRYPTID] Loading library file modifiers.lua
+INFO - [G] 2025-04-02 14:17:20 :: WARN  :: Sticker :: Detected duplicate register call on object perishable
+INFO - [G] 2025-04-02 14:17:20 :: WARN  :: Sticker :: Detected duplicate register call on object pinned
+INFO - [G] 2025-04-02 14:17:20 :: WARN  :: Sticker :: Detected duplicate register call on object eternal
+INFO - [G] 2025-04-02 14:17:20 :: WARN  :: Sticker :: Detected duplicate register call on object rental
+INFO - [G] [CRYPTID] Loading library file notifications.lua
+INFO - [G] [CRYPTID] Loading library file overrides.lua
+INFO - [G] [CRYPTID] Loading library file ui.lua
+INFO - [G] [CRYPTID] Loading file achievement.lua
+INFO - [G] [CRYPTID] Loading file blind.lua
+INFO - [G] [CRYPTID] Loading file challenge.lua
+INFO - [G] [CRYPTID] Loading file code.lua
+INFO - [G] [CRYPTID] Loading file deck.lua
+INFO - [G] [CRYPTID] Loading file enhanced.lua
+INFO - [G] [CRYPTID] Loading file epic.lua
+INFO - [G] [CRYPTID] Loading file exotic.lua
+INFO - [G] [CRYPTID] Loading file joker_display.lua
+INFO - [G] [CRYPTID] Loading file m.lua
+INFO - [G] [CRYPTID] Loading file misc.lua
+INFO - [G] [CRYPTID] Loading file misc_joker.lua
+INFO - [G] [CRYPTID] Loading file planet.lua
+INFO - [G] [CRYPTID] Loading file sleeve.lua
+INFO - [G] [CRYPTID] Loading file spectral.lua
+INFO - [G] [CRYPTID] Loading file spooky.lua
+INFO - [G] [CRYPTID] Loading file stake.lua
+INFO - [G] [CRYPTID] Loading file tag.lua
+INFO - [G] [CRYPTID] Loading file test.lua
+INFO - [G] [CRYPTID] Loading file voucher.lua
+INFO - [G] 2025-04-02 14:17:20 :: WARN  :: Atlas :: Object cry_effarcire has the same key as an existing object, not registering.
+INFO - [G] 2025-04-02 14:17:20 :: WARN  :: Atlas :: If you want to modify an existing object, use take_ownership()
+INFO - [G] 2025-04-02 14:17:20 :: INFO  :: TIMER :: [0000] Injected Language in 0.001 ms
+INFO - [G] 2025-04-02 14:17:20 :: INFO  :: TIMER :: [0000] Injected [INTERNAL] in 1.744 ms
+INFO - [G] 2025-04-02 14:17:23 :: INFO  :: TIMER :: [0030] Injected Atlas in 2352.466 ms
+INFO - [G] 2025-04-02 14:17:23 :: INFO  :: TIMER :: [0030] Injected Sound in 292.934 ms
+INFO - [G] 2025-04-02 14:17:23 :: INFO  :: TIMER :: [0032] Injected Stake in 1.432 ms
+INFO - [G] 2025-04-02 14:17:23 :: INFO  :: TIMER :: [0008] Injected Rarity in 0.066 ms
+INFO - [G] 2025-04-02 14:17:23 :: INFO  :: TIMER :: [0010] Injected ObjectType in 0.153 ms
+INFO - [G] 2025-04-02 14:17:23 :: INFO  :: TIMER :: [0389] Injected Center in 3.784 ms
+INFO - [G] 2025-04-02 14:17:23 :: INFO  :: TIMER :: [0009] Injected Undiscovered Sprite in 0.078 ms
+INFO - [G] 2025-04-02 14:17:23 :: INFO  :: TIMER :: [0028] Injected Blind in 0.151 ms
+INFO - [G] 2025-04-02 14:17:23 :: INFO  :: TIMER :: [0006] Injected Seal in 0.383 ms
+INFO - [G] 2025-04-02 14:17:23 :: INFO  :: TIMER :: [0004] Injected Suit in 0.193 ms
+INFO - [G] 2025-04-02 14:17:23 :: INFO  :: TIMER :: [0013] Injected Rank in 0.228 ms
+INFO - [G] 2025-04-02 14:17:23 :: INFO  :: TIMER :: [0028] Injected DeckSkin in 0.551 ms
+INFO - [G] 2025-04-02 14:17:23 :: INFO  :: TIMER :: [0016] Injected PokerHand in 0.289 ms
+INFO - [G] 2025-04-02 14:17:23 :: INFO  :: TIMER :: [0031] Injected Challenge in 0.548 ms
+INFO - [G] 2025-04-02 14:17:23 :: INFO  :: TIMER :: [0028] Injected Tag in 0.496 ms
+INFO - [G] 2025-04-02 14:17:23 :: INFO  :: TIMER :: [0010] Injected Sticker in 2.308 ms
+INFO - [G] 2025-04-02 14:17:24 :: INFO  :: TIMER :: [0009] Injected Shader in 719.148 ms
+INFO - [G] 2025-04-02 14:17:24 :: INFO  :: TIMER :: [0002] Injected Keybind in 0.015 ms
+INFO - [G] 2025-04-02 14:17:24 :: INFO  :: TIMER :: [0021] Injected Achievement in 0.175 ms
+INFO - [G] 2025-04-02 14:17:24 :: INFO  :: TIMER :: [0002] Injected nil in 0.013 ms
+INFO - [G] 2025-04-02 14:17:24 :: INFO  :: TIMER :: [0023] Injected Draw Step in 0.293 ms
+INFO - [G] 2025-04-02 14:17:24 :: INFO  :: TIMER :: [0000] Injected [INTERNAL] in 21.117 ms
+INFO - [G] 2025-04-02 14:17:24 :: INFO  :: TIMER :: [0011] Injected Other in 0.028 ms
+INFO - [♥] Applied 1 patch to '=[SMODS _ "smods-https-thread.lua"]'
+INFO - [G] 2025-04-02 14:19:12 :: DEBUG :: SMODS.https(1) :: Using https module backend
+INFO - [G] Could not find key for center: {
+  refresh_movement= "true",
+}
+INFO - [G] Could not find key for center: {
+  refresh_movement= "true",
+}
+INFO - [G] Could not find key for center: {
+  refresh_movement= "true",
+  h_popup= table: 0x349c3fe8   {
+     nodes= table: 0x349c40d8      {
+        [1] = table: 0x349c4118         {
+           nodes= table: 0x349ba898,
+           n= 3,
+           config= table: 0x349c41a8,
+         },
+      },
+     n= 7,
+     config= table: 0x349c4078      {
+        colour= table: 0x31913068         {
+           [1] = 0,
+           [2] = 0,
+           [3] = 0,
+           [4] = 0,
+         },
+        align= "cm",
+        outline_colour= table: 0x31917198         {
+           [1] = 0.84705882352941,
+           [2] = 0.84705882352941,
+           [3] = 0.84705882352941,
+           [4] = 1,
+         },
+      },
+   },
+  h_popup_config= table: 0x3382bfb0   {
+     offset= table: 0x3382c040      {
+        y= 0,
+        x= -0.1,
+      },
+     align= "cl",
+     instance_type= "POPUP",
+     parent= table: 0x3311b208      {
+        float= "true",
+        click_offset= table: 0x3311b550         {
+           y= 0,
+           x= 0,
+         },
+        children= table: 0x3311b8a0         {
+         },
+        parent= table: 0x3356f958         {
+           click_offset= table: 0x33b491a8,
+           children= table: 0x3356f980,
+           parent= table: 0x3356f7b8,
+           T= table: 0x33b490b8,
+           offset= table: 0x33b49d18,
+           role= table: 0x33b49f88,
+           last_aligned= -1,
+           content_dimensions= table: 0x3356fa98,
+           Mid= table: 0x3356f958,
+           VT= table: 0x33b49838,
+           shadow_parrallax= table: 0x33b49d78,
+           ARGS= table: 0x3356fa70,
+           ID= 1380,
+           container= table: 0x31da09d8,
+           config= table: 0x3311c770,
+           velocity= table: 0x33b49928,
+           temp_offs= table: 0x33b1bda8,
+           UIT= 5,
+           alignment= table: 0x33b49b68,
+           created_on_pause= "true",
+           STATIONARY= "true",
+           NEW_ALIGNMENT= "false",
+           under_overlay= "false",
+           layered_parallax= table: 0x33b49dd8,
+           FRAME= table: 0x33b49268,
+           CALCING= "true",
+           shadow_height= 0.2,
+           UIBox= table: 0x3356b940,
+           hover_offset= table: 0x33b49208,
+           CT= table: 0x33b490b8,
+           RETS= table: 0x33b49090,
+           states= table: 0x33b492c8,
+           pinch= table: 0x33b49cb8,
+           static_rotation= "true",
+           last_moved= -1,
+         },
+        sprite_pos= table: 0x3311b158         {
+           y= 0,
+           x= 0,
+         },
+        T= table: 0x3311b398         {
+           x= 5.37,
+           w= 0.8,
+           y= 4.6565,
+           h= 0.8,
+           scale= 1,
+           r= 0,
+         },
+        offset= table: 0x3311bd40         {
+           y= 0,
+           x= 0,
+         },
+        role= table: 0x33b4a168         {
+           xy_bond= "Strong",
+           offset= table: 0x3311bb98,
+           scale_bond= "Weak",
+           major= table: 0x3356f958,
+           draw_major= table: 0x3311b208,
+           wh_bond= "Weak",
+           r_bond= "Strong",
+           role_type= "Minor",
+         },
+        last_aligned= -1,
+        Mid= table: 0x3311b208         {
+           float= "true",
+           click_offset= table: 0x3311b550,
+           children= table: 0x3311b8a0,
+           parent= table: 0x3356f958,
+           sprite_pos= table: 0x3311b158,
+           T= table: 0x3311b398,
+           offset= table: 0x3311bd40,
+           role= table: 0x33b4a168,
+           last_aligned= -1,
+           Mid= table: 0x3311b208,
+           ability_UIBox_table= table: 0x337411c0,
+           hover_tilt= 3,
+           VT= table: 0x3311b8c8,
+           shadow_parrallax= table: 0x3311bda0,
+           ARGS= table: 0x3311b280,
+           ID= 1350,
+           atlas= table: 0x3218f930,
+           config= table: 0x3311b308,
+           velocity= table: 0x3311b9b8,
+           scale= table: 0x3311bec0,
+           alignment= table: 0x3311bbf8,
+           temp_offs= table: 0x35777dc0,
+           hovering= "true",
+           draw_steps= table: 0x3311c960,
+           under_overlay= "false",
+           sprite_pos_copy= table: 0x3311bf20,
+           STATIONARY= "false",
+           CALCING= "true",
+           NEW_ALIGNMENT= "false",
+           hover= "function: 0x3311c9d8",
+           sprite= "Quad: 0x0184c101fd20",
+           zoom= "true",
+           stop_hover= "function: 0x31f7e358",
+           RETS= table: 0x3311b2e0,
+           juice= table: 0x33741040,
+           container= table: 0x31da09d8,
+           layered_parallax= table: 0x3311be00,
+           FRAME= table: 0x3311b5d8,
+           static_rotation= "false",
+           shadow_height= 0.2,
+           image_dims= table: 0x3311c5b8,
+           states= table: 0x3311b638,
+           hover_offset= table: 0x3311b578,
+           scale_mag= 42.5,
+           last_moved= -1,
+           pinch= table: 0x3311bce0,
+           created_on_pause= "true",
+           CT= table: 0x3311b8c8,
+         },
+        ability_UIBox_table= table: 0x337411c0         {
+           badges= table: 0x337412c8,
+           info= table: 0x33741278,
+           main= table: 0x33741250,
+           card_type= "Other",
+           name= table: 0x33741830,
+           type= table: 0x337412a0,
+         },
+        hover_tilt= 3,
+        VT= table: 0x3311b8c8         {
+           x= 5.37,
+           w= 0.8,
+           y= 4.6565,
+           h= 0.8,
+           scale= 0.97,
+           r= 0,
+         },
+        shadow_parrallax= table: 0x3311bda0         {
+           y= -1.5,
+           x= -0.6345,
+         },
+        ARGS= table: 0x3311b280         {
+           prep_shader= table: 0x34240060,
+           collides_with_point_rotation= table: 0x33aba018,
+           collides_with_point_translation= table: 0x33ab9ff0,
+           set_offset_translation= table: 0x349cb250,
+           set_offset_point= table: 0x349cb160,
+           collides_with_point_point= table: 0x33ab9fc8,
+         },
+        ID= 1350,
+        atlas= table: 0x3218f930         {
+           py= 34,
+           name= "tags",
+           image= "Image: 0x0184c0e12f30",
+           px= 34,
+         },
+        config= table: 0x3311b308         {
+           refresh_movement= "true",
+           h_popup= table: 0x349c3fe8,
+           h_popup_config= table: 0x3382bfb0,
+         },
+        velocity= table: 0x3311b9b8         {
+           x= 0,
+           mag= 0,
+           y= 0,
+           r= 0,
+           scale= 2.0848065601965e-12,
+         },
+        scale= table: 0x3311bec0         {
+           y= 34,
+           x= 34,
+         },
+        alignment= table: 0x3311bbf8         {
+           prev_type= "a",
+           offset= table: 0x3311bc20,
+           type= "a",
+           type_list= table: 0x33b1c088,
+           prev_offset= table: 0x3311bc80,
+         },
+        temp_offs= table: 0x35777dc0         {
+           y= 27.6565,
+           x= 45.37,
+         },
+        hovering= "true",
+        draw_steps= table: 0x3311c960         {
+           [1] = table: 0x3311c988,
+           [2] = table: 0x3311c9b0,
+         },
+        under_overlay= "false",
+        sprite_pos_copy= table: 0x3311bf20         {
+           y= 0,
+           x= 0,
+         },
+        STATIONARY= "false",
+        CALCING= "true",
+        NEW_ALIGNMENT= "false",
+        hover= "function: 0x3311c9d8",
+        sprite= "Quad: 0x0184c101fd20",
+        zoom= "true",
+        stop_hover= "function: 0x31f7e358",
+        RETS= table: 0x3311b2e0         {
+           get_pos_pixel= table: 0x34240120,
+         },
+        juice= table: 0x33741040         {
+           start_time= 161.78781849891,
+           scale= 0,
+           r_amt= 0.02,
+           r= 0,
+           end_time= 162.18781849891,
+           scale_amt= 0.05,
+         },
+        container= table: 0x31da09d8         {
+           jiggle= 3.0696047241202e-11,
+           click_offset= table: 0x32301fe8,
+           under_overlay= "false",
+           children= table: 0x3195eb10,
+           FRAME= table: 0x31d97428,
+           ARGS= table: 0x323abbf0,
+           hover_offset= table: 0x31c98a58,
+           T= table: 0x3241b7c0,
+           CT= table: 0x3241b7c0,
+           RETS= table: 0x31cd4890,
+           ID= 91,
+           states= table: 0x31a04000,
+           created_on_pause= "false",
+           container= table: 0x31da09d8,
+           config= table: 0x31c9f558,
+         },
+        layered_parallax= table: 0x3311be00         {
+           y= 0,
+           x= 0,
+         },
+        FRAME= table: 0x3311b5d8         {
+           MOVE= 7555,
+           DRAW= -1,
+         },
+        static_rotation= "false",
+        shadow_height= 0.2,
+        image_dims= table: 0x3311c5b8         {
+           [1] = 204,
+           [2] = 170,
+         },
+        states= table: 0x3311b638         {
+           drag= table: 0x3311b7e0,
+           collide= table: 0x3311b660,
+           release_on= table: 0x3311b840,
+           visible= "true",
+           hover= table: 0x3311b720,
+           click= table: 0x3311b780,
+           focus= table: 0x3311b6c0,
+         },
+        hover_offset= table: 0x3311b578         {
+           y= 0.13127729198842,
+           x= 0.49336719678031,
+         },
+        scale_mag= 42.5,
+        last_moved= -1,
+        pinch= table: 0x3311bce0         {
+           y= "false",
+           x= "false",
+         },
+        created_on_pause= "true",
+        CT= table: 0x3311b8c8         {
+           x= 5.37,
+           w= 0.8,
+           y= 4.6565,
+           h= 0.8,
+           scale= 0.97,
+           r= 0,
+         },
+      },
+     major= table: 0x3311b208      {
+        float= "true",
+        click_offset= table: 0x3311b550         {
+           y= 0,
+           x= 0,
+         },
+        children= table: 0x3311b8a0         {
+         },
+        parent= table: 0x3356f958         {
+           click_offset= table: 0x33b491a8,
+           children= table: 0x3356f980,
+           parent= table: 0x3356f7b8,
+           T= table: 0x33b490b8,
+           offset= table: 0x33b49d18,
+           role= table: 0x33b49f88,
+           last_aligned= -1,
+           content_dimensions= table: 0x3356fa98,
+           Mid= table: 0x3356f958,
+           VT= table: 0x33b49838,
+           shadow_parrallax= table: 0x33b49d78,
+           ARGS= table: 0x3356fa70,
+           ID= 1380,
+           container= table: 0x31da09d8,
+           config= table: 0x3311c770,
+           velocity= table: 0x33b49928,
+           temp_offs= table: 0x33b1bda8,
+           UIT= 5,
+           alignment= table: 0x33b49b68,
+           created_on_pause= "true",
+           STATIONARY= "true",
+           NEW_ALIGNMENT= "false",
+           under_overlay= "false",
+           layered_parallax= table: 0x33b49dd8,
+           FRAME= table: 0x33b49268,
+           CALCING= "true",
+           shadow_height= 0.2,
+           UIBox= table: 0x3356b940,
+           hover_offset= table: 0x33b49208,
+           CT= table: 0x33b490b8,
+           RETS= table: 0x33b49090,
+           states= table: 0x33b492c8,
+           pinch= table: 0x33b49cb8,
+           static_rotation= "true",
+           last_moved= -1,
+         },
+        sprite_pos= table: 0x3311b158         {
+           y= 0,
+           x= 0,
+         },
+        T= table: 0x3311b398         {
+           x= 5.37,
+           w= 0.8,
+           y= 4.6565,
+           h= 0.8,
+           scale= 1,
+           r= 0,
+         },
+        offset= table: 0x3311bd40         {
+           y= 0,
+           x= 0,
+         },
+        role= table: 0x33b4a168         {
+           xy_bond= "Strong",
+           offset= table: 0x3311bb98,
+           scale_bond= "Weak",
+           major= table: 0x3356f958,
+           draw_major= table: 0x3311b208,
+           wh_bond= "Weak",
+           r_bond= "Strong",
+           role_type= "Minor",
+         },
+        last_aligned= -1,
+        Mid= table: 0x3311b208         {
+           float= "true",
+           click_offset= table: 0x3311b550,
+           children= table: 0x3311b8a0,
+           parent= table: 0x3356f958,
+           sprite_pos= table: 0x3311b158,
+           T= table: 0x3311b398,
+           offset= table: 0x3311bd40,
+           role= table: 0x33b4a168,
+           last_aligned= -1,
+           Mid= table: 0x3311b208,
+           ability_UIBox_table= table: 0x337411c0,
+           hover_tilt= 3,
+           VT= table: 0x3311b8c8,
+           shadow_parrallax= table: 0x3311bda0,
+           ARGS= table: 0x3311b280,
+           ID= 1350,
+           atlas= table: 0x3218f930,
+           config= table: 0x3311b308,
+           velocity= table: 0x3311b9b8,
+           scale= table: 0x3311bec0,
+           alignment= table: 0x3311bbf8,
+           temp_offs= table: 0x35777dc0,
+           hovering= "true",
+           draw_steps= table: 0x3311c960,
+           under_overlay= "false",
+           sprite_pos_copy= table: 0x3311bf20,
+           STATIONARY= "false",
+           CALCING= "true",
+           NEW_ALIGNMENT= "false",
+           hover= "function: 0x3311c9d8",
+           sprite= "Quad: 0x0184c101fd20",
+           zoom= "true",
+           stop_hover= "function: 0x31f7e358",
+           RETS= table: 0x3311b2e0,
+           juice= table: 0x33741040,
+           container= table: 0x31da09d8,
+           layered_parallax= table: 0x3311be00,
+           FRAME= table: 0x3311b5d8,
+           static_rotation= "false",
+           shadow_height= 0.2,
+           image_dims= table: 0x3311c5b8,
+           states= table: 0x3311b638,
+           hover_offset= table: 0x3311b578,
+           scale_mag= 42.5,
+           last_moved= -1,
+           pinch= table: 0x3311bce0,
+           created_on_pause= "true",
+           CT= table: 0x3311b8c8,
+         },
+        ability_UIBox_table= table: 0x337411c0         {
+           badges= table: 0x337412c8,
+           info= table: 0x33741278,
+           main= table: 0x33741250,
+           card_type= "Other",
+           name= table: 0x33741830,
+           type= table: 0x337412a0,
+         },
+        hover_tilt= 3,
+        VT= table: 0x3311b8c8         {
+           x= 5.37,
+           w= 0.8,
+           y= 4.6565,
+           h= 0.8,
+           scale= 0.97,
+           r= 0,
+         },
+        shadow_parrallax= table: 0x3311bda0         {
+           y= -1.5,
+           x= -0.6345,
+         },
+        ARGS= table: 0x3311b280         {
+           prep_shader= table: 0x34240060,
+           collides_with_point_rotation= table: 0x33aba018,
+           collides_with_point_translation= table: 0x33ab9ff0,
+           set_offset_translation= table: 0x349cb250,
+           set_offset_point= table: 0x349cb160,
+           collides_with_point_point= table: 0x33ab9fc8,
+         },
+        ID= 1350,
+        atlas= table: 0x3218f930         {
+           py= 34,
+           name= "tags",
+           image= "Image: 0x0184c0e12f30",
+           px= 34,
+         },
+        config= table: 0x3311b308         {
+           refresh_movement= "true",
+           h_popup= table: 0x349c3fe8,
+           h_popup_config= table: 0x3382bfb0,
+         },
+        velocity= table: 0x3311b9b8         {
+           x= 0,
+           mag= 0,
+           y= 0,
+           r= 0,
+           scale= 2.0848065601965e-12,
+         },
+        scale= table: 0x3311bec0         {
+           y= 34,
+           x= 34,
+         },
+        alignment= table: 0x3311bbf8         {
+           prev_type= "a",
+           offset= table: 0x3311bc20,
+           type= "a",
+           type_list= table: 0x33b1c088,
+           prev_offset= table: 0x3311bc80,
+         },
+        temp_offs= table: 0x35777dc0         {
+           y= 27.6565,
+           x= 45.37,
+         },
+        hovering= "true",
+        draw_steps= table: 0x3311c960         {
+           [1] = table: 0x3311c988,
+           [2] = table: 0x3311c9b0,
+         },
+        under_overlay= "false",
+        sprite_pos_copy= table: 0x3311bf20         {
+           y= 0,
+           x= 0,
+         },
+        STATIONARY= "false",
+        CALCING= "true",
+        NEW_ALIGNMENT= "false",
+        hover= "function: 0x3311c9d8",
+        sprite= "Quad: 0x0184c101fd20",
+        zoom= "true",
+        stop_hover= "function: 0x31f7e358",
+        RETS= table: 0x3311b2e0         {
+           get_pos_pixel= table: 0x34240120,
+         },
+        juice= table: 0x33741040         {
+           start_time= 161.78781849891,
+           scale= 0,
+           r_amt= 0.02,
+           r= 0,
+           end_time= 162.18781849891,
+           scale_amt= 0.05,
+         },
+        container= table: 0x31da09d8         {
+           jiggle= 3.0696047241202e-11,
+           click_offset= table: 0x32301fe8,
+           under_overlay= "false",
+           children= table: 0x3195eb10,
+           FRAME= table: 0x31d97428,
+           ARGS= table: 0x323abbf0,
+           hover_offset= table: 0x31c98a58,
+           T= table: 0x3241b7c0,
+           CT= table: 0x3241b7c0,
+           RETS= table: 0x31cd4890,
+           ID= 91,
+           states= table: 0x31a04000,
+           created_on_pause= "false",
+           container= table: 0x31da09d8,
+           config= table: 0x31c9f558,
+         },
+        layered_parallax= table: 0x3311be00         {
+           y= 0,
+           x= 0,
+         },
+        FRAME= table: 0x3311b5d8         {
+           MOVE= 7555,
+           DRAW= -1,
+         },
+        static_rotation= "false",
+        shadow_height= 0.2,
+        image_dims= table: 0x3311c5b8         {
+           [1] = 204,
+           [2] = 170,
+         },
+        states= table: 0x3311b638         {
+           drag= table: 0x3311b7e0,
+           collide= table: 0x3311b660,
+           release_on= table: 0x3311b840,
+           visible= "true",
+           hover= table: 0x3311b720,
+           click= table: 0x3311b780,
+           focus= table: 0x3311b6c0,
+         },
+        hover_offset= table: 0x3311b578         {
+           y= 0.13127729198842,
+           x= 0.49336719678031,
+         },
+        scale_mag= 42.5,
+        last_moved= -1,
+        pinch= table: 0x3311bce0         {
+           y= "false",
+           x= "false",
+         },
+        created_on_pause= "true",
+        CT= table: 0x3311b8c8         {
+           x= 5.37,
+           w= 0.8,
+           y= 4.6565,
+           h= 0.8,
+           scale= 0.97,
+           r= 0,
+         },
+      },
+   },
+}
+INFO - [G] Could not find key for center: {
+  refresh_movement= "true",
+}
+INFO - [G] Could not find key for center: {
+  refresh_movement= "true",
+}
+INFO - [G] Could not find key for center: {
+  refresh_movement= "true",
+  h_popup= table: 0x35f80958   {
+     nodes= table: 0x35f80a48      {
+        [1] = table: 0x35f80a88         {
+           nodes= table: 0x35f81b40,
+           n= 3,
+           config= table: 0x35f80b18,
+         },
+      },
+     n= 7,
+     config= table: 0x35f809e8      {
+        colour= table: 0x31913068         {
+           [1] = 0,
+           [2] = 0,
+           [3] = 0,
+           [4] = 0,
+         },
+        align= "cm",
+        outline_colour= table: 0x31917198         {
+           [1] = 0.84705882352941,
+           [2] = 0.84705882352941,
+           [3] = 0.84705882352941,
+           [4] = 1,
+         },
+      },
+   },
+  h_popup_config= table: 0x35f823b0   {
+     offset= table: 0x35f82440      {
+        y= 0,
+        x= -0.1,
+      },
+     align= "cl",
+     instance_type= "POPUP",
+     parent= table: 0x33560cd8      {
+        float= "true",
+        click_offset= table: 0x33561020         {
+           y= 0,
+           x= 0,
+         },
+        children= table: 0x33561370         {
+         },
+        parent= table: 0x33571fd0         {
+           click_offset= table: 0x340d9458,
+           children= table: 0x33571ff8,
+           parent= table: 0x33571e30,
+           T= table: 0x340d9368,
+           offset= table: 0x340d9fc8,
+           role= table: 0x340da238,
+           last_aligned= -1,
+           content_dimensions= table: 0x33572110,
+           Mid= table: 0x33571fd0,
+           VT= table: 0x340d9ae8,
+           shadow_parrallax= table: 0x340da028,
+           ARGS= table: 0x335720e8,
+           ID= 1402,
+           container= table: 0x31da09d8,
+           config= table: 0x33562240,
+           velocity= table: 0x340d9bd8,
+           temp_offs= table: 0x33b204a8,
+           UIT= 5,
+           alignment= table: 0x340d9e18,
+           created_on_pause= "true",
+           STATIONARY= "true",
+           NEW_ALIGNMENT= "false",
+           under_overlay= "false",
+           layered_parallax= table: 0x340da088,
+           FRAME= table: 0x340d9518,
+           CALCING= "true",
+           shadow_height= 0.2,
+           UIBox= table: 0x3356b940,
+           hover_offset= table: 0x340d94b8,
+           CT= table: 0x340d9368,
+           RETS= table: 0x340d9340,
+           states= table: 0x340d9578,
+           pinch= table: 0x340d9f68,
+           static_rotation= "true",
+           last_moved= -1,
+         },
+        sprite_pos= table: 0x33560c50         {
+           y= 0,
+           x= 0,
+         },
+        T= table: 0x33560e68         {
+           x= 5.37,
+           w= 0.8,
+           y= 5.6565,
+           h= 0.8,
+           scale= 1,
+           r= 0,
+         },
+        offset= table: 0x33561810         {
+           y= 0,
+           x= 0,
+         },
+        role= table: 0x340da418         {
+           xy_bond= "Strong",
+           offset= table: 0x33561668,
+           scale_bond= "Weak",
+           major= table: 0x33571fd0,
+           draw_major= table: 0x33560cd8,
+           wh_bond= "Weak",
+           r_bond= "Strong",
+           role_type= "Minor",
+         },
+        last_aligned= -1,
+        Mid= table: 0x33560cd8         {
+           float= "true",
+           click_offset= table: 0x33561020,
+           children= table: 0x33561370,
+           parent= table: 0x33571fd0,
+           sprite_pos= table: 0x33560c50,
+           T= table: 0x33560e68,
+           offset= table: 0x33561810,
+           role= table: 0x340da418,
+           last_aligned= -1,
+           Mid= table: 0x33560cd8,
+           ability_UIBox_table= table: 0x324d38d8,
+           hover_tilt= 3,
+           VT= table: 0x33561398,
+           shadow_parrallax= table: 0x33561870,
+           ARGS= table: 0x33560d50,
+           ID= 1353,
+           atlas= table: 0x31eb58b8,
+           config= table: 0x33560dd8,
+           velocity= table: 0x33561488,
+           scale= table: 0x33561990,
+           alignment= table: 0x335616c8,
+           temp_offs= table: 0x35f91bb0,
+           hovering= "true",
+           draw_steps= table: 0x33562430,
+           under_overlay= "false",
+           sprite_pos_copy= table: 0x335619f0,
+           STATIONARY= "true",
+           CALCING= "true",
+           NEW_ALIGNMENT= "false",
+           hover= "function: 0x335624a8",
+           sprite= "Quad: 0x0184c1020110",
+           zoom= "true",
+           stop_hover= "function: 0x32d0c108",
+           RETS= table: 0x33560db0,
+           juice= table: 0x350afbd8,
+           container= table: 0x31da09d8,
+           layered_parallax= table: 0x335618d0,
+           FRAME= table: 0x335610a8,
+           static_rotation= "false",
+           shadow_height= 0.2,
+           image_dims= table: 0x33562088,
+           states= table: 0x33561108,
+           hover_offset= table: 0x33561048,
+           scale_mag= 40,
+           last_moved= -1,
+           pinch= table: 0x335617b0,
+           created_on_pause= "true",
+           CT= table: 0x33561398,
+         },
+        ability_UIBox_table= table: 0x324d38d8         {
+           badges= table: 0x324d3900,
+           info= table: 0x32494408,
+           main= table: 0x324943e0,
+           card_type= "Other",
+           name= table: 0x3262fd98,
+           type= table: 0x32494430,
+         },
+        hover_tilt= 3,
+        VT= table: 0x33561398         {
+           x= 5.37,
+           w= 0.8,
+           y= 5.6565,
+           h= 0.8,
+           scale= 0.97,
+           r= 0,
+         },
+        shadow_parrallax= table: 0x33561870         {
+           y= -1.5,
+           x= -0.6345,
+         },
+        ARGS= table: 0x33560d50         {
+           prep_shader= table: 0x34246770,
+           collides_with_point_rotation= table: 0x33ab9070,
+           collides_with_point_translation= table: 0x33ab9048,
+           set_offset_translation= table: 0x33ab8e68,
+           set_offset_point= table: 0x35f3d450,
+           collides_with_point_point= table: 0x33ab9020,
+         },
+        ID= 1353,
+        atlas= table: 0x31eb58b8         {
+           name= "talisman_modicon",
+           prefix_config= table: 0x31a00840,
+           key= "talisman_modicon",
+           original_mod= table: 0x31ce80e0,
+           _saved_d_u= "true",
+           original_key= "modicon",
+           px= 32,
+           image_data= "ImageData: 0x0184bc28e560",
+           mod= table: 0x31ce80e0,
+           image= "Image: 0x0184d15aec40",
+           registered= "true",
+           py= 32,
+           path= "icon.png",
+           atlas= "Atlas",
+           full_path= "C:\Users\easto\AppData\Roaming\Balatro\Mods/Talisman/assets/2x/icon.png",
+         },
+        config= table: 0x33560dd8         {
+           refresh_movement= "true",
+           h_popup= table: 0x35f80958,
+           h_popup_config= table: 0x35f823b0,
+         },
+        velocity= table: 0x33561488         {
+           x= 0,
+           mag= 0,
+           y= 0,
+           r= 0,
+           scale= -2.6697682104748e-16,
+         },
+        scale= table: 0x33561990         {
+           y= 32,
+           x= 32,
+         },
+        alignment= table: 0x335616c8         {
+           prev_type= "a",
+           offset= table: 0x335616f0,
+           type= "a",
+           type_list= table: 0x33b20788,
+           prev_offset= table: 0x33561750,
+         },
+        temp_offs= table: 0x35f91bb0         {
+           y= 28.6565,
+           x= 45.37,
+         },
+        hovering= "true",
+        draw_steps= table: 0x33562430         {
+           [1] = table: 0x33562458,
+           [2] = table: 0x33562480,
+         },
+        under_overlay= "false",
+        sprite_pos_copy= table: 0x335619f0         {
+           y= 0,
+           x= 0,
+         },
+        STATIONARY= "true",
+        CALCING= "true",
+        NEW_ALIGNMENT= "false",
+        hover= "function: 0x335624a8",
+        sprite= "Quad: 0x0184c1020110",
+        zoom= "true",
+        stop_hover= "function: 0x32d0c108",
+        RETS= table: 0x33560db0         {
+           get_pos_pixel= table: 0x34246830,
+         },
+        juice= table: 0x350afbd8         {
+           start_time= 165.72577395778,
+           scale= 0,
+           r_amt= 0.02,
+           r= 0,
+           end_time= 166.12577395778,
+           scale_amt= 0.05,
+         },
+        container= table: 0x31da09d8         {
+           jiggle= 2.5892367044886e-20,
+           click_offset= table: 0x32301fe8,
+           under_overlay= "false",
+           children= table: 0x3195eb10,
+           FRAME= table: 0x31d97428,
+           ARGS= table: 0x323abbf0,
+           hover_offset= table: 0x31c98a58,
+           T= table: 0x3241b7c0,
+           CT= table: 0x3241b7c0,
+           RETS= table: 0x31cd4890,
+           ID= 91,
+           states= table: 0x31a04000,
+           created_on_pause= "false",
+           container= table: 0x31da09d8,
+           config= table: 0x31c9f558,
+         },
+        layered_parallax= table: 0x335618d0         {
+           y= 0,
+           x= 0,
+         },
+        FRAME= table: 0x335610a8         {
+           MOVE= 7730,
+           DRAW= -1,
+         },
+        static_rotation= "false",
+        shadow_height= 0.2,
+        image_dims= table: 0x33562088         {
+           [1] = 34,
+           [2] = 34,
+         },
+        states= table: 0x33561108         {
+           drag= table: 0x335612b0,
+           collide= table: 0x33561130,
+           release_on= table: 0x33561310,
+           visible= "true",
+           hover= table: 0x335611f0,
+           click= table: 0x33561250,
+           focus= table: 0x33561190,
+         },
+        hover_offset= table: 0x33561048         {
+           y= 0.22081258098553,
+           x= 0.083296085391256,
+         },
+        scale_mag= 40,
+        last_moved= -1,
+        pinch= table: 0x335617b0         {
+           y= "false",
+           x= "false",
+         },
+        created_on_pause= "true",
+        CT= table: 0x33561398         {
+           x= 5.37,
+           w= 0.8,
+           y= 5.6565,
+           h= 0.8,
+           scale= 0.97,
+           r= 0,
+         },
+      },
+     major= table: 0x33560cd8      {
+        float= "true",
+        click_offset= table: 0x33561020         {
+           y= 0,
+           x= 0,
+         },
+        children= table: 0x33561370         {
+         },
+        parent= table: 0x33571fd0         {
+           click_offset= table: 0x340d9458,
+           children= table: 0x33571ff8,
+           parent= table: 0x33571e30,
+           T= table: 0x340d9368,
+           offset= table: 0x340d9fc8,
+           role= table: 0x340da238,
+           last_aligned= -1,
+           content_dimensions= table: 0x33572110,
+           Mid= table: 0x33571fd0,
+           VT= table: 0x340d9ae8,
+           shadow_parrallax= table: 0x340da028,
+           ARGS= table: 0x335720e8,
+           ID= 1402,
+           container= table: 0x31da09d8,
+           config= table: 0x33562240,
+           velocity= table: 0x340d9bd8,
+           temp_offs= table: 0x33b204a8,
+           UIT= 5,
+           alignment= table: 0x340d9e18,
+           created_on_pause= "true",
+           STATIONARY= "true",
+           NEW_ALIGNMENT= "false",
+           under_overlay= "false",
+           layered_parallax= table: 0x340da088,
+           FRAME= table: 0x340d9518,
+           CALCING= "true",
+           shadow_height= 0.2,
+           UIBox= table: 0x3356b940,
+           hover_offset= table: 0x340d94b8,
+           CT= table: 0x340d9368,
+           RETS= table: 0x340d9340,
+           states= table: 0x340d9578,
+           pinch= table: 0x340d9f68,
+           static_rotation= "true",
+           last_moved= -1,
+         },
+        sprite_pos= table: 0x33560c50         {
+           y= 0,
+           x= 0,
+         },
+        T= table: 0x33560e68         {
+           x= 5.37,
+           w= 0.8,
+           y= 5.6565,
+           h= 0.8,
+           scale= 1,
+           r= 0,
+         },
+        offset= table: 0x33561810         {
+           y= 0,
+           x= 0,
+         },
+        role= table: 0x340da418         {
+           xy_bond= "Strong",
+           offset= table: 0x33561668,
+           scale_bond= "Weak",
+           major= table: 0x33571fd0,
+           draw_major= table: 0x33560cd8,
+           wh_bond= "Weak",
+           r_bond= "Strong",
+           role_type= "Minor",
+         },
+        last_aligned= -1,
+        Mid= table: 0x33560cd8         {
+           float= "true",
+           click_offset= table: 0x33561020,
+           children= table: 0x33561370,
+           parent= table: 0x33571fd0,
+           sprite_pos= table: 0x33560c50,
+           T= table: 0x33560e68,
+           offset= table: 0x33561810,
+           role= table: 0x340da418,
+           last_aligned= -1,
+           Mid= table: 0x33560cd8,
+           ability_UIBox_table= table: 0x324d38d8,
+           hover_tilt= 3,
+           VT= table: 0x33561398,
+           shadow_parrallax= table: 0x33561870,
+           ARGS= table: 0x33560d50,
+           ID= 1353,
+           atlas= table: 0x31eb58b8,
+           config= table: 0x33560dd8,
+           velocity= table: 0x33561488,
+           scale= table: 0x33561990,
+           alignment= table: 0x335616c8,
+           temp_offs= table: 0x35f91bb0,
+           hovering= "true",
+           draw_steps= table: 0x33562430,
+           under_overlay= "false",
+           sprite_pos_copy= table: 0x335619f0,
+           STATIONARY= "true",
+           CALCING= "true",
+           NEW_ALIGNMENT= "false",
+           hover= "function: 0x335624a8",
+           sprite= "Quad: 0x0184c1020110",
+           zoom= "true",
+           stop_hover= "function: 0x32d0c108",
+           RETS= table: 0x33560db0,
+           juice= table: 0x350afbd8,
+           container= table: 0x31da09d8,
+           layered_parallax= table: 0x335618d0,
+           FRAME= table: 0x335610a8,
+           static_rotation= "false",
+           shadow_height= 0.2,
+           image_dims= table: 0x33562088,
+           states= table: 0x33561108,
+           hover_offset= table: 0x33561048,
+           scale_mag= 40,
+           last_moved= -1,
+           pinch= table: 0x335617b0,
+           created_on_pause= "true",
+           CT= table: 0x33561398,
+         },
+        ability_UIBox_table= table: 0x324d38d8         {
+           badges= table: 0x324d3900,
+           info= table: 0x32494408,
+           main= table: 0x324943e0,
+           card_type= "Other",
+           name= table: 0x3262fd98,
+           type= table: 0x32494430,
+         },
+        hover_tilt= 3,
+        VT= table: 0x33561398         {
+           x= 5.37,
+           w= 0.8,
+           y= 5.6565,
+           h= 0.8,
+           scale= 0.97,
+           r= 0,
+         },
+        shadow_parrallax= table: 0x33561870         {
+           y= -1.5,
+           x= -0.6345,
+         },
+        ARGS= table: 0x33560d50         {
+           prep_shader= table: 0x34246770,
+           collides_with_point_rotation= table: 0x33ab9070,
+           collides_with_point_translation= table: 0x33ab9048,
+           set_offset_translation= table: 0x33ab8e68,
+           set_offset_point= table: 0x35f3d450,
+           collides_with_point_point= table: 0x33ab9020,
+         },
+        ID= 1353,
+        atlas= table: 0x31eb58b8         {
+           name= "talisman_modicon",
+           prefix_config= table: 0x31a00840,
+           key= "talisman_modicon",
+           original_mod= table: 0x31ce80e0,
+           _saved_d_u= "true",
+           original_key= "modicon",
+           px= 32,
+           image_data= "ImageData: 0x0184bc28e560",
+           mod= table: 0x31ce80e0,
+           image= "Image: 0x0184d15aec40",
+           registered= "true",
+           py= 32,
+           path= "icon.png",
+           atlas= "Atlas",
+           full_path= "C:\Users\easto\AppData\Roaming\Balatro\Mods/Talisman/assets/2x/icon.png",
+         },
+        config= table: 0x33560dd8         {
+           refresh_movement= "true",
+           h_popup= table: 0x35f80958,
+           h_popup_config= table: 0x35f823b0,
+         },
+        velocity= table: 0x33561488         {
+           x= 0,
+           mag= 0,
+           y= 0,
+           r= 0,
+           scale= -2.6697682104748e-16,
+         },
+        scale= table: 0x33561990         {
+           y= 32,
+           x= 32,
+         },
+        alignment= table: 0x335616c8         {
+           prev_type= "a",
+           offset= table: 0x335616f0,
+           type= "a",
+           type_list= table: 0x33b20788,
+           prev_offset= table: 0x33561750,
+         },
+        temp_offs= table: 0x35f91bb0         {
+           y= 28.6565,
+           x= 45.37,
+         },
+        hovering= "true",
+        draw_steps= table: 0x33562430         {
+           [1] = table: 0x33562458,
+           [2] = table: 0x33562480,
+         },
+        under_overlay= "false",
+        sprite_pos_copy= table: 0x335619f0         {
+           y= 0,
+           x= 0,
+         },
+        STATIONARY= "true",
+        CALCING= "true",
+        NEW_ALIGNMENT= "false",
+        hover= "function: 0x335624a8",
+        sprite= "Quad: 0x0184c1020110",
+        zoom= "true",
+        stop_hover= "function: 0x32d0c108",
+        RETS= table: 0x33560db0         {
+           get_pos_pixel= table: 0x34246830,
+         },
+        juice= table: 0x350afbd8         {
+           start_time= 165.72577395778,
+           scale= 0,
+           r_amt= 0.02,
+           r= 0,
+           end_time= 166.12577395778,
+           scale_amt= 0.05,
+         },
+        container= table: 0x31da09d8         {
+           jiggle= 2.5892367044886e-20,
+           click_offset= table: 0x32301fe8,
+           under_overlay= "false",
+           children= table: 0x3195eb10,
+           FRAME= table: 0x31d97428,
+           ARGS= table: 0x323abbf0,
+           hover_offset= table: 0x31c98a58,
+           T= table: 0x3241b7c0,
+           CT= table: 0x3241b7c0,
+           RETS= table: 0x31cd4890,
+           ID= 91,
+           states= table: 0x31a04000,
+           created_on_pause= "false",
+           container= table: 0x31da09d8,
+           config= table: 0x31c9f558,
+         },
+        layered_parallax= table: 0x335618d0         {
+           y= 0,
+           x= 0,
+         },
+        FRAME= table: 0x335610a8         {
+           MOVE= 7730,
+           DRAW= -1,
+         },
+        static_rotation= "false",
+        shadow_height= 0.2,
+        image_dims= table: 0x33562088         {
+           [1] = 34,
+           [2] = 34,
+         },
+        states= table: 0x33561108         {
+           drag= table: 0x335612b0,
+           collide= table: 0x33561130,
+           release_on= table: 0x33561310,
+           visible= "true",
+           hover= table: 0x335611f0,
+           click= table: 0x33561250,
+           focus= table: 0x33561190,
+         },
+        hover_offset= table: 0x33561048         {
+           y= 0.22081258098553,
+           x= 0.083296085391256,
+         },
+        scale_mag= 40,
+        last_moved= -1,
+        pinch= table: 0x335617b0         {
+           y= "false",
+           x= "false",
+         },
+        created_on_pause= "true",
+        CT= table: 0x33561398         {
+           x= 5.37,
+           w= 0.8,
+           y= 5.6565,
+           h= 0.8,
+           scale= 0.97,
+           r= 0,
+         },
+      },
+   },
+}
